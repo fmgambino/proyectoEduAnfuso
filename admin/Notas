@@ -25,3 +25,21 @@ reset
 bornera no pegada al orilla pcb
 wi fi led
 mqtt led
+
+ETAPA DE SALIDA Definiciones PININ ESP12
+
+- Actuador 01 Rele (Gas) +5V => A0 => IO 
+
+- Actuador 02 Rele (Hum) +5V => A1 => IO
+
+- Actuador 03 Rele (Temp) +5V => A2 => IO
+
+- Actuador 04 Rele 
+
+- Actuador 05 MOSFET Se solicitar defini el mismo
+
+- Actuador 06 MOSFET Se solicitar defini el mismo
+
+- Actuador 07 MOSFET Se solicitar defini el mismo
+
+- Actuador 08 MOSFET Se solicitar defini el mismo
