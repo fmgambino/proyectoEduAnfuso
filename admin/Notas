@@ -1,3 +1,5 @@
+NECESITO LINK O IMAGEN DEL PINOUT DE LOS DOS MODULOS A USAR. SEGUN ESO SE VA A LIMITAR LA CANTIDAD DE ENTRADAS Y SALIDAS.
+
 ETAPA DE ENTRADA Definiciones PININ ESP12
 
 - Sensor 01 MQ135 (Gas) +5V => A0 => IO  / USA SALIDA DIGITAL O ANALOGICA?
@@ -16,25 +18,25 @@ ETAPA DE ENTRADA Definiciones PININ ESP12
 
 - Sensor 08  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
 
-boton crga programa / LO COLOCO COMO ENTRADA DIGITAL
+boton crga programa / LO COLOCO COMO ENTRADA DIGITAL IO33
 caudalimetro 	/ ACTUADOR O SENSOR ?
 peso / ACTUADOR O SENSOR ?
 volumen / ACTUADOR O SENSOR ?
-boton wi fi /  LO COLOCO COMO ENTRADA DIGITAL
-reset /  RESET TOTAL ? 
+boton wi fi /  LO COLOCO COMO ENTRADA DIGITAL IO32
+reset /  RESET TOTAL ? / IO13
 bornera no pegada al orilla pcb / 
-wi fi led / SALIDA POR IO
-mqtt led  / SALIDA POR IO
+wi fi led / SALIDA POR IO35
+mqtt led  / SALIDA POR IO34
 
 ETAPA DE SALIDA Definiciones PININ ESP12
 
-- Actuador 01 Rele (Gas) +5V => A0 => IO  / ACTIVA EN ALTO Y ACCIONA RELAY1
+- Actuador 01 Rele (Gas) +5V => A0 => IO4  / ACTIVA EN ALTO Y ACCIONA RELAY1
 
-- Actuador 02 Rele (Hum) +5V => A1 => IO  / ACTIVA EN ALTO Y ACCIONA RELAY1
+- Actuador 02 Rele (Hum) +5V => A1 => IO16  / ACTIVA EN ALTO Y ACCIONA RELAY2
 
-- Actuador 03 Rele (Temp) +5V => A2 => IO / ACTIVA EN ALTO Y ACCIONA RELAY1
+- Actuador 03 Rele (Temp) +5V => A2 => IO17 / ACTIVA EN ALTO Y ACCIONA RELAY3
 
-- Actuador 04 Rele / ACTIVA EN ALTO Y ACCIONA RELAY1
+- Actuador 04 Rele => IO5 / ACTIVA EN ALTO Y ACCIONA RELAY4
 
 - Actuador 05 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
 
