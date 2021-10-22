@@ -1,45 +1,45 @@
 ETAPA DE ENTRADA Definiciones PININ ESP12
 
-- Sensor 01 MQ135 (Gas) +5V => A0 => IO 
+- Sensor 01 MQ135 (Gas) +5V => A0 => IO  / USA SALIDA DIGITAL O ANALOGICA?
 
-- Sensor 02 DHT22 (Hum) +5V => A1 => IO
+- Sensor 02 DHT22 (Hum) +5V => A1 => IO14 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
 
-- Sensor 03 DS18BS20 (Temp) +5V => A2 => IO
+- Sensor 03 DS18BS20 (Temp) +5V => A2 => IO27 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
 
-- Sensor 04 MH 
+- Sensor 04 MH  / QUE SENSOR ?  / ENTRADA DIGITAL O ANALOGICA ? 
 
-- Sensor 05  Se solicitar defini el mismo
+- Sensor 05  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
 
-- Sensor 06  Se solicitar defini el mismo
+- Sensor 06  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
 
-- Sensor 07  Se solicitar defini el mismo
+- Sensor 07  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
 
-- Sensor 08  Se solicitar defini el mismo
+- Sensor 08  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
 
-boton crga programa
-caudalimetro
-peso
-volumen
-boton wi fi
-reset
-bornera no pegada al orilla pcb
-wi fi led
-mqtt led
+boton crga programa / LO COLOCO COMO ENTRADA DIGITAL
+caudalimetro 	/ ACTUADOR O SENSOR ?
+peso / ACTUADOR O SENSOR ?
+volumen / ACTUADOR O SENSOR ?
+boton wi fi /  LO COLOCO COMO ENTRADA DIGITAL
+reset /  RESET TOTAL ? 
+bornera no pegada al orilla pcb / 
+wi fi led / SALIDA POR IO
+mqtt led  / SALIDA POR IO
 
 ETAPA DE SALIDA Definiciones PININ ESP12
 
-- Actuador 01 Rele (Gas) +5V => A0 => IO 
+- Actuador 01 Rele (Gas) +5V => A0 => IO  / ACTIVA EN ALTO Y ACCIONA RELAY1
 
-- Actuador 02 Rele (Hum) +5V => A1 => IO
+- Actuador 02 Rele (Hum) +5V => A1 => IO  / ACTIVA EN ALTO Y ACCIONA RELAY1
 
-- Actuador 03 Rele (Temp) +5V => A2 => IO
+- Actuador 03 Rele (Temp) +5V => A2 => IO / ACTIVA EN ALTO Y ACCIONA RELAY1
 
-- Actuador 04 Rele 
+- Actuador 04 Rele / ACTIVA EN ALTO Y ACCIONA RELAY1
 
-- Actuador 05 MOSFET Se solicitar defini el mismo
+- Actuador 05 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
 
-- Actuador 06 MOSFET Se solicitar defini el mismo
+- Actuador 06 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
 
-- Actuador 07 MOSFET Se solicitar defini el mismo
+- Actuador 07 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
 
-- Actuador 08 MOSFET Se solicitar defini el mismo
+- Actuador 08 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
