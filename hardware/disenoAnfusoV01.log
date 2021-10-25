@@ -1,11 +1,11 @@
-# Writing all output to: D:\12 - PROYECTOS\2 - PROTEUS\2 - ELECTRONICA GAMBINO\4 - EDUANFUSO\proyectoEduAnfuso\hardware\disenoAnfusoV01.log
+# Writing all output to: D:\ELECTR??NICA GAMBINO\01 CLIENTES\76 EDUARDO ANFUSO\proyectoEduAnfuso\hardware\disenoAnfusoV01.log
 set pad_wire_necking on
 bus diagonal
 fanout 5
 route 50
-clean 1
+clean 2
 route 50 16
-clean 1
+clean 2
 filter 5
 recorner diagonal
 status_file
