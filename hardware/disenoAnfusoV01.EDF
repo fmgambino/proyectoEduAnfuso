@@ -28,8 +28,8 @@
   (layer I13 (type signal) (direction off))
   (layer I14 (type signal) (direction off))
   (layer BOT (type signal) (direction vertical))
-  (grid via  1.27000)
-  (grid wire 1.27000)
+  (grid via  0.25400)
+  (grid wire 0.25400)
   (control
    (via_at_smd off)
    (off_grid on)
@@ -1266,7 +1266,11 @@
    )
    (pins U11-1 L1-0 D29-1)
   )
+<<<<<<< HEAD
   (net "#00097"
+=======
+  (net "#00098"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1275,7 +1279,11 @@
    )
    (pins D30-0 R64-0)
   )
+<<<<<<< HEAD
   (net "#00139"
+=======
+  (net "#00158"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1284,7 +1292,11 @@
    )
    (pins LED2-0 R5-1)
   )
+<<<<<<< HEAD
   (net "#00142"
+=======
+  (net "#00161"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1293,7 +1305,11 @@
    )
    (pins LED3-0 R6-1)
   )
+<<<<<<< HEAD
   (net "#00145"
+=======
+  (net "#00164"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1302,7 +1318,11 @@
    )
    (pins LED4-0 R7-1)
   )
+<<<<<<< HEAD
   (net "#00163"
+=======
+  (net "#00178"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1311,7 +1331,11 @@
    )
    (pins D8-0 R33-0)
   )
+<<<<<<< HEAD
   (net "#00166"
+=======
+  (net "#00181"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1320,7 +1344,11 @@
    )
    (pins D9-0 R34-0)
   )
+<<<<<<< HEAD
   (net "#00170"
+=======
+  (net "#00185"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1329,7 +1357,11 @@
    )
    (pins Q10-0 R35-1)
   )
+<<<<<<< HEAD
   (net "#00172"
+=======
+  (net "#00187"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1338,7 +1370,11 @@
    )
    (pins U9-3 R35-0 R63-0)
   )
+<<<<<<< HEAD
   (net "#00175"
+=======
+  (net "#00190"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1347,7 +1383,11 @@
    )
    (pins U9-0 R36-1)
   )
+<<<<<<< HEAD
   (net "#00178"
+=======
+  (net "#00193"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1356,7 +1396,11 @@
    )
    (pins Q1-0 R40-1)
   )
+<<<<<<< HEAD
   (net "#00180"
+=======
+  (net "#00195"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1365,7 +1409,11 @@
    )
    (pins U15-3 R39-0 R40-0)
   )
+<<<<<<< HEAD
   (net "#00183"
+=======
+  (net "#00198"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1374,7 +1422,11 @@
    )
    (pins U15-0 R41-1)
   )
+<<<<<<< HEAD
   (net "#00189"
+=======
+  (net "#00204"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1383,7 +1435,11 @@
    )
    (pins D10-0 R55-0)
   )
+<<<<<<< HEAD
   (net "#00192"
+=======
+  (net "#00207"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1392,7 +1448,11 @@
    )
    (pins D11-0 R56-0)
   )
+<<<<<<< HEAD
   (net "#00228"
+=======
+  (net "#00243"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1401,7 +1461,11 @@
    )
    (pins U18-1 R14-0)
   )
+<<<<<<< HEAD
   (net "#00231"
+=======
+  (net "#00246"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1410,7 +1474,11 @@
    )
    (pins U18-0 R13-1)
   )
+<<<<<<< HEAD
   (net "#00232"
+=======
+  (net "#00247"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1419,7 +1487,11 @@
    )
    (pins U18-2 R15-1)
   )
+<<<<<<< HEAD
   (net "#00250"
+=======
+  (net "#00264"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1428,7 +1500,11 @@
    )
    (pins R84-1 D33-0)
   )
+<<<<<<< HEAD
   (net "#00265"
+=======
+  (net "#00280"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1437,7 +1513,11 @@
    )
    (pins R49-1 U2-0)
   )
+<<<<<<< HEAD
   (net "#00288"
+=======
+  (net "#00302"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1501,6 +1581,18 @@
    )
    (pins U3-3 C9-1 U1-2 R11-0)
   )
+<<<<<<< HEAD
+=======
+  (net "3.3V"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins 3.3V-1 R24-0 R23-0 R21-0 R22-0 R84-0 U11-3 C22-0 L1-1 C35-1 R64-1)
+  )
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
   (net "32KHZ"
    (circuit
     (use_layer TOP BOT)
@@ -1528,6 +1620,7 @@
    )
    (pins U2-3 C13-1 U1-10 R32-0)
   )
+<<<<<<< HEAD
   (net "5V"
    (circuit
     (use_layer TOP BOT)
@@ -1537,6 +1630,8 @@
    )
    (pins 5V-1 R8-0 R29-0 R38-1 R43-1 R54-1 U7-2 C5-0)
   )
+=======
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
   (net "BAT"
    (circuit
     (use_layer TOP BOT)
@@ -1664,9 +1759,16 @@
     (pins ESP1-1 ESP1-8 ESP1-24 ESP1-28 NODEMCU-1 NODEMCU-8 LCD-0 12V-0 5V-0 3.3V-0 FUENTE-1
      U10-4 U10-5 U10-6 U10-7 U10-8 U10-9 U10-10 U10-11 U10-12 U18-3 U18-6 "ULN2803 SMD"-8
      U6-1 U6-2 U4-1 U4-2 U3-1 U3-2 U14-1 U14-2 U2-1 U2-2 C9-0 C10-0 C11-0 C12-0 C13-0
+<<<<<<< HEAD
      U1-6 BTN1-0 BTN1-1 BTN2-0 BTN2-1 BTN3-0 BTN3-1 D1-1 D2-1 D3-1 D4-1 D12-1 R1-1 R2-1
      R3-1 R4-1 R31-1 C6-0 C3-0 C1-0 C2-0 C4-0 D8-1 D9-1 U7-1 U11-2 U11-4 U11-5 C21-1 C5-1
     C22-1 C26-1 BAT1-0 U5-1 D30-1 D29-0 C34-0 C23-0 C35-0)
+=======
+     U1-6 74HC541-0 74HC541-9 74HC541-18 BTN1-0 BTN1-1 BTN2-0 BTN2-1 BTN3-0 BTN3-1 D1-1
+     D2-1 D3-1 D4-1 D12-1 R1-1 R2-1 R3-1 R4-1 R31-1 C6-0 C3-0 C1-0 C2-0 C4-0 D8-1 D9-1
+     U7-1 U11-2 U11-4 U11-5 C21-1 C5-1 C22-1 C26-1 BAT1-0 U5-1 D30-1 D29-0 C34-0 C23-0
+    C35-0)
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
   )
   (net "IN3"
    (circuit
@@ -1936,8 +2038,13 @@
      $VIA#0_POWER
     )
    )
+<<<<<<< HEAD
     (pins ESP1-29 LCD-1 3.3V-1 U10-1 U18-7 U1-13 R9-1 R10-1 R11-1 R12-1 R32-1 R13-0 R14-1
     R15-0 R16-0 R24-0 R23-0 R21-0 R22-0 R84-0 U11-3 C22-0 L1-1 C35-1 R64-1)
+=======
+    (pins ESP1-29 LCD-1 5V-1 U10-1 U18-7 R8-0 R29-0 R38-1 R43-1 R54-1 U1-13 74HC541-19
+    R9-1 R10-1 R11-1 R12-1 R32-1 R13-0 R14-1 R15-0 R16-0 U7-2 C5-0)
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
   )
   (class POWER
    "GND"
@@ -1963,6 +2070,7 @@
    "#00054"
    "#00057"
    "#00060"
+<<<<<<< HEAD
    "#00083"
    "#00086"
    "#00092"
@@ -1986,6 +2094,31 @@
    "#00250"
    "#00265"
    "#00288"
+=======
+   "#00084"
+   "#00087"
+   "#00093"
+   "#00098"
+   "#00158"
+   "#00161"
+   "#00164"
+   "#00178"
+   "#00181"
+   "#00185"
+   "#00187"
+   "#00190"
+   "#00193"
+   "#00195"
+   "#00198"
+   "#00204"
+   "#00207"
+   "#00243"
+   "#00246"
+   "#00247"
+   "#00264"
+   "#00280"
+   "#00302"
+>>>>>>> 9c5cf09ebefa23d2e580964f45e8279636d88cdf
    "1"
    "12V"
    "2"
@@ -1995,7 +2128,6 @@
    "32KHZ"
    "4"
    "5"
-   "5V"
    "BAT"
    "CLK"
    "CMD"
