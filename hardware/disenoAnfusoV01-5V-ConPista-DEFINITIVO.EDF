@@ -6,15 +6,15 @@
  (resolution mm 100000)
  (unit mm)
  (structure
-  (boundary (rect pcb -0.40800 -0.40800 120.60800 80.60800))
+  (boundary (rect pcb -0.00160 -0.00160 120.20160 80.20160))
   (boundary (path signal 0.20320 0.10000 0.10000 120.10000 0.10000 120.10000 80.10000
    0.10000 80.10000 0.10000 0.10000))
-  (boundary (path signal 0.20320 92.00625 13.33828 92.00625 41.73828 90.90625 41.73828
+  (boundary (path signal 0.20320 92.00625 13.33828 92.00625 45.93828 90.90625 45.93828
    90.90625 13.33828 92.00625 13.33828))
-  (boundary (path signal 0.20320 71.40625 12.93828 71.40625 41.53828 70.30625 41.53828
+  (boundary (path signal 0.20320 71.40625 12.93828 71.40625 45.83828 70.30625 45.83828
    70.30625 12.93828 71.40625 12.93828))
-  (boundary (path signal 0.20320 119.05625 13.38828 107.35625 13.38828 107.35625 12.28828
-   119.05625 12.28828 119.05625 13.38828))
+  (boundary (path signal 0.20320 119.05625 13.18828 102.85625 13.18828 102.85625 12.08828
+   119.05625 12.08828 119.05625 13.18828))
   (flip_style mirror_first)
   (layer TOP (type signal) (direction horizontal))
   (layer I1 (type signal) (direction off))
@@ -61,53 +61,43 @@
   (component "NODE MCU V3 LOLIN_ESP1" (place ESP1 110.10000 77.60000 front 270))
   (component "SIL-100-15_NODEMCU" (place NODEMCU 110.14000 72.40000 front 180))
   (component "CONN-SIL4_LCD" (place LCD 59.60000 70.78000 front 90))
-  (component "TBLOCK-M6_ENTRADAS" (place ENTRADAS 6.70000 19.89240 front 90))
   (component "TBLOCK-M2_12V" (place 12V 6.70000 50.19240 front 90))
   (component "TBLOCK-M2_5V" (place 5V 6.70000 60.99240 front 90))
   (component "TBLOCK-M2_3.3V" (place 3.3V 6.70000 71.79240 front 90))
-  (component "TBLOCK-M6_SALIDAS" (place SALIDAS 115.30000 45.20380 front 270))
+  (component "TBLOCK-M6_RELES" (place RELES 115.30000 45.20380 front 270))
   (component 117211503_RELAY1 (place RELAY1 85.60000 31.40000 front 0))
   (component 117211503_RELAY2 (place RELAY2 65.30000 31.40000 front 0))
   (component 117211503_RELAY3 (place RELAY3 65.30000 15.70000 front 0))
-  (component 117211503_RELAY4 (place RELAY4 85.60000 15.70000 front 0))
   (component "SOIC127P1032X265-16N_U10" (place U10 82.41000 61.42500 front 0))
   (component SO8_U18 (place U18 104.66500 60.29650 front 90))
   (component SOP18_ULN2803 (place ULN2803 81.31950 61.48000 back 0))
-  (component "DPAK-N_Q1" (place Q1 57.30880 16.68600 back 90))
   (component "DPAK-N_Q10" (place Q10 57.30880 27.78600 back 90))
   (component PC817XI1J_U9 (place U9 49.53000 37.30000 back 90))
-  (component PC817XI1J_U15 (place U15 56.57000 37.40000 back 90))
   (component PC817XI1J_U6 (place U6 29.20000 58.53000 front 0))
-  (component 0603_RES_R19 (place R19 12.30000 44.69620 front 0))
-  (component 0603_RES_R20 (place R20 12.27280 39.69620 front 0))
-  (component 0603_RES_R17 (place R17 12.40000 34.69620 front 0))
-  (component 0603_RES_R18 (place R18 12.50000 29.69620 front 0))
-  (component 0603_RES_R49 (place R49 12.60000 24.69620 front 0))
-  (component 0603_RES_R8 (place R8 14.02720 43.39620 front 180))
-  (component 0603_RES_R29 (place R29 14.00000 38.29620 front 180))
-  (component 0603_RES_R38 (place R38 14.10000 33.49620 front 180))
-  (component 0603_RES_R43 (place R43 14.20000 28.39620 front 180))
-  (component 0603_RES_R54 (place R54 14.30000 23.39620 front 180))
+  (component 0603_RES_R19 (place R19 12.30000 44.19620 front 0))
+  (component 0603_RES_R20 (place R20 12.27280 39.19620 front 0))
+  (component 0603_RES_R17 (place R17 12.40000 34.19620 front 0))
+  (component 0603_RES_R18 (place R18 12.50000 29.19620 front 0))
+  (component 0603_RES_R8 (place R8 14.02720 42.89620 front 180))
+  (component 0603_RES_R29 (place R29 14.00000 37.79620 front 180))
+  (component 0603_RES_R38 (place R38 14.10000 32.99620 front 180))
+  (component 0603_RES_R43 (place R43 14.20000 27.89620 front 180))
   (component PC817XI1J_U4 (place U4 29.20000 51.10000 front 0))
   (component PC817XI1J_U3 (place U3 29.10000 44.40000 front 0))
   (component PC817XI1J_U14 (place U14 29.10000 37.20000 front 0))
-  (component PC817XI1J_U2 (place U2 29.10000 30.90000 front 0))
   (component 0603_CAP_C9 (place C9 38.40000 43.47280 front 90))
   (component 0603_CAP_C10 (place C10 38.50000 36.47280 front 90))
   (component 0603_CAP_C11 (place C11 38.30000 47.67280 front 90))
   (component 0603_CAP_C12 (place C12 38.50000 39.87280 front 90))
-  (component 0603_CAP_C13 (place C13 38.50000 30.27280 front 90))
   (component DIL14_U1 (place U1 17.76000 63.68000 front 0))
-  (component LEDC1608X60_L01 (place L01 20.00000 45.20000 front 180))
-  (component LEDC1608X60_L02 (place L02 20.00000 40.30000 front 180))
-  (component LEDC1608X60_L03 (place L03 20.00000 35.10000 front 180))
-  (component LEDC1608X60_L04 (place L04 20.00000 30.00000 front 180))
-  (component LEDC1608X60_L05 (place L05 20.00000 25.10000 front 180))
+  (component LEDC1608X60_L01 (place L01 20.30000 43.20000 front 180))
+  (component LEDC1608X60_L02 (place L02 20.30000 38.30000 front 180))
+  (component LEDC1608X60_L03 (place L03 20.30000 33.10000 front 180))
+  (component LEDC1608X60_L04 (place L04 20.30000 28.00000 front 180))
   (component 0603_RES_R25 (place R25 33.60000 75.22720 front -90))
   (component 0603_RES_R26 (place R26 31.10000 75.42720 front -90))
   (component 0603_RES_R27 (place R27 28.10000 75.22720 front -90))
   (component 0603_RES_R28 (place R28 25.50000 75.42720 front -90))
-  (component 0603_RES_R30 (place R30 17.50000 47.90000 front 90))
   (component 0603_RES_R9 (place R9 29.60000 59.80000 back -270))
   (component 0603_RES_R10 (place R10 29.60000 52.30000 back -270))
   (component 0603_RES_R11 (place R11 29.80000 45.60000 back -270))
@@ -117,12 +107,10 @@
   (component 0603_RES_R2 (place R2 68.50000 56.70000 front 0))
   (component 0603_RES_R3 (place R3 68.50000 59.20000 front 0))
   (component 0603_RES_R4 (place R4 68.50000 61.80000 front 0))
-  (component 0603_RES_R31 (place R31 68.50000 64.30000 front 0))
   (component 0603_CAP_C6 (place C6 15.70000 69.67280 front 90))
   (component 0603_CAP_C3 (place C3 26.90000 77.20000 front 90))
   (component 0603_CAP_C1 (place C1 29.50000 77.17280 front 90))
   (component 0603_CAP_C2 (place C2 32.30000 77.17280 front 90))
-  (component 0603_CAP_C4 (place C4 35.10000 77.17280 front 90))
   (component 0603_RES_R13 (place R13 98.50000 54.82720 back 90))
   (component 0603_RES_R14 (place R14 100.20000 53.10000 back -90))
   (component 0603_RES_R15 (place R15 104.30000 54.90000 back 90))
@@ -133,16 +121,13 @@
   (component 0603_RES_R22 (place R22 100.60000 66.00000 front 0))
   (component 0603_RES_R84 (place R84 107.20000 66.10000 front 0))
   (component SOD123_D33 (place D33 93.60000 64.50000 front 180))
-  (component SOD2614X116_D14 (place D14 74.40000 52.30000 back 0))
-  (component SOD2614X116_D5 (place D5 74.40000 56.80000 back 0))
-  (component SOD2614X116_D6 (place D6 74.40000 61.40000 back 0))
-  (component SOD2614X116_D7 (place D7 74.30000 65.90000 back 0))
-  (component LEDC2012X120_Q01 (place Q01 105.50000 20.00000 front 0))
-  (component LEDC2012X120_Q02 (place Q02 105.50000 25.00000 front 0))
-  (component LEDC2012X120_Q03 (place Q03 105.50000 30.00000 front 0))
-  (component LEDC2012X120_Q04 (place Q04 105.50000 35.20000 front 0))
-  (component LEDC1608X60_Q05 (place Q05 105.40000 40.10000 front 0))
-  (component LEDC1608X60_Q06 (place Q06 105.40000 45.00000 front 0))
+  (component SOD2614X116_D01 (place D01 74.40000 52.30000 back 0))
+  (component SOD2614X116_D02 (place D02 74.40000 56.80000 back 0))
+  (component SOD2614X116_D03 (place D03 74.40000 61.40000 back 0))
+  (component LEDC2012X120_Q01 (place Q01 105.80000 30.00000 front 0))
+  (component LEDC2012X120_Q02 (place Q02 105.80000 35.00000 front 0))
+  (component LEDC2012X120_Q03 (place Q03 105.80000 40.00000 front 0))
+  (component LEDC1608X60_Q05 (place Q05 118.80000 6.40000 front -90))
   (component TS78M05CP_U7 (place U7 30.10000 7.60000 front 180))
   (component "TO170P1410X464-6_U11" (place U11 29.50000 7.25449 back 180))
   (component "FUSE SMD_F1" (place F1 13.10000 11.30000 front 0))
@@ -161,27 +146,19 @@
   (component DIOM5226X230N_D29 (place D29 32.70000 17.60000 front -180))
   (component DIOM5226X230N_D28 (place D28 22.80000 15.30000 front 90))
   (component 1206_CAP_C34 (place C34 94.14000 55.69960 back 90))
-  (component 0805_RES_R35 (place R35 90.25000 3.84000 back -270))
-  (component 0805_RES_R37 (place R37 106.40000 3.90000 back 90))
-  (component 0805_RES_R39 (place R39 99.22000 3.84000 back -270))
-  (component 0805_RES_R40 (place R40 103.00000 3.90000 back 90))
-  (component 0805_RES_R42 (place R42 106.60000 7.93360 back 90))
-  (component 0805_RES_R63 (place R63 94.14000 3.84000 back -270))
+  (component 0805_RES_R35 (place R35 77.80000 3.70000 back -270))
+  (component 0805_RES_R37 (place R37 90.78000 3.69360 back 90))
+  (component 0805_RES_R63 (place R63 81.20000 3.70000 back -270))
   (component 0603_CAP_C23 (place C23 38.10000 10.47280 front 90))
   (component 0603_CAP_C35 (place C35 24.20000 74.60000 front 270))
   (component 0603_RES_R5 (place R5 73.90000 69.50000 back 0))
   (component 0603_RES_R6 (place R6 73.50000 11.07280 back -90))
-  (component 0603_RES_R7 (place R7 77.00000 11.07280 back -90))
   (component 0603_RES_R33 (place R33 88.40000 55.02720 back 90))
   (component 0603_RES_R34 (place R34 91.14000 55.05000 back 90))
   (component 0603_RES_R36 (place R36 80.50000 10.77280 back -90))
-  (component 0603_RES_R41 (place R41 67.30000 11.47280 back 270))
   (component 0603_RES_R44 (place R44 65.30000 11.47280 back -90))
-  (component 0603_RES_R55 (place R55 87.60000 12.52720 back -270))
   (component 0603_RES_R56 (place R56 83.80000 12.50000 back -270))
   (component 0603_RES_R64 (place R64 63.40000 13.20000 back -270))
-  (component "T-BLOCK 2PIN BLUE_LINEA 220" (place "LINEA 220" 115.60000 8.30000 front 0
-  ))
   (component "TBLOCK-M2_FUENTE" (place FUENTE 6.70000 9.19620 front 90))
   (component 118250272_RST (place RST 44.70000 4.30000 front 0))
   (component "BUTTON SMD_PRG" (place PRG 68.50000 3.50000 front 90))
@@ -192,6 +169,13 @@
   (component SOD123_D1 (place D1 1.50000 2.10000 front 90))
   (component SOD123_D2 (place D2 12.24551 7.80000 front 0))
   (component MOLEX_2047110001_USBTC1 (place USBTC1 8.60000 3.35000 front 0))
+  (component "TBLOCK-M2_ENTRADAS" (place ENTRADAS 6.70000 38.09620 front 90))
+  (component "TBLOCK-M3_J1" (place J1 6.70000 22.59620 front 90))
+  (component 117211503_RELAY4 (place RELAY4 85.60000 15.70000 front 0))
+  (component SOD2614X116_D04 (place D04 74.30000 65.50000 back 0))
+  (component "TBLOCK-M3_MOSFET" (place MOSFET 115.00380 4.80000 front 180))
+  (component LEDC2012X120_Q04 (place Q04 105.90000 45.00000 front 0))
+  (component 0603_RES_R7 (place R7 105.87280 48.00000 front 0))
  )
  (library
   (image "NODE MCU V3 LOLIN_ESP1" (side front)
@@ -252,15 +236,6 @@
    (pin PS2 (rotate 0) 2 5.08000 0.00000)
    (pin PS2 (rotate 0) 3 7.62000 0.00000)
   )
-  (image "TBLOCK-M6_ENTRADAS" (side front)
-   (outline (rect TOP -2.64160 -3.91160 27.40660 3.91160))
-   (pin PS3 (rotate 0) 0 0.00000 0.00000)
-   (pin PS3 (rotate 0) 1 5.00380 0.00000)
-   (pin PS3 (rotate 0) 2 10.00760 0.00000)
-   (pin PS3 (rotate 0) 3 15.01140 0.00000)
-   (pin PS3 (rotate 0) 4 19.98980 0.00000)
-   (pin PS3 (rotate 0) 5 24.99360 0.00000)
-  )
   (image "TBLOCK-M2_12V" (side front)
    (outline (rect TOP -2.64160 -3.91160 7.72160 3.91160))
    (pin PS3 (rotate 0) 0 0.00000 0.00000)
@@ -276,7 +251,7 @@
    (pin PS3 (rotate 0) 0 0.00000 0.00000)
    (pin PS3 (rotate 0) 1 5.00380 0.00000)
   )
-  (image "TBLOCK-M6_SALIDAS" (side front)
+  (image "TBLOCK-M6_RELES" (side front)
    (outline (rect TOP -2.64160 -3.91160 27.40660 3.91160))
    (pin PS3 (rotate 0) 0 0.00000 0.00000)
    (pin PS3 (rotate 0) 1 5.00380 0.00000)
@@ -302,14 +277,6 @@
    (pin PS4 (rotate 0) 4 -2.00000 6.00000)
   )
   (image 117211503_RELAY3 (side front)
-   (outline (rect TOP -4.55000 -2.80000 16.75000 14.80000))
-   (pin PS4 (rotate 0) 0 0.00000 0.00000)
-   (pin PS4 (rotate 0) 1 12.20000 0.00000)
-   (pin PS4 (rotate 0) 2 12.20000 12.00000)
-   (pin PS4 (rotate 0) 3 0.00000 12.00000)
-   (pin PS4 (rotate 0) 4 -2.00000 6.00000)
-  )
-  (image 117211503_RELAY4 (side front)
    (outline (rect TOP -4.55000 -2.80000 16.75000 14.80000))
    (pin PS4 (rotate 0) 0 0.00000 0.00000)
    (pin PS4 (rotate 0) 1 12.20000 0.00000)
@@ -368,12 +335,6 @@
    (pin PS7 (rotate -90) 16 3.61950 3.81000)
    (pin PS7 (rotate -90) 17 3.61950 5.08000)
   )
-  (image "DPAK-N_Q1" (side back)
-   (outline (rect TOP -1.20650 -1.27000 5.77850 10.40130))
-   (pin PS8 (rotate 0) 0 0.00000 0.00000)
-   (pin PS8 (rotate 0) 1 4.57200 0.00000)
-   (pin PS9 (rotate 0) 2 2.28600 6.90880)
-  )
   (image "DPAK-N_Q10" (side back)
    (outline (rect TOP -1.20650 -1.27000 5.77850 10.40130))
    (pin PS8 (rotate 0) 0 0.00000 0.00000)
@@ -381,13 +342,6 @@
    (pin PS9 (rotate 0) 2 2.28600 6.90880)
   )
   (image PC817XI1J_U9 (side back)
-   (outline (rect TOP -7.75000 -3.34000 7.25000 3.34000))
-   (pin PS10 (rotate 0) 0 -5.10000 1.27000)
-   (pin PS10 (rotate 0) 1 -5.10000 -1.27000)
-   (pin PS10 (rotate 0) 2 5.10000 -1.27000)
-   (pin PS10 (rotate 0) 3 5.10000 1.27000)
-  )
-  (image PC817XI1J_U15 (side back)
    (outline (rect TOP -7.75000 -3.34000 7.25000 3.34000))
    (pin PS10 (rotate 0) 0 -5.10000 1.27000)
    (pin PS10 (rotate 0) 1 -5.10000 -1.27000)
@@ -421,11 +375,6 @@
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
   )
-  (image 0603_RES_R49 (side front)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS12 (rotate 0) 0 0.00000 0.00000)
-   (pin PS12 (rotate 0) 1 1.72720 0.00000)
-  )
   (image 0603_RES_R8 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
@@ -442,11 +391,6 @@
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
   )
   (image 0603_RES_R43 (side front)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS12 (rotate 0) 0 0.00000 0.00000)
-   (pin PS12 (rotate 0) 1 1.72720 0.00000)
-  )
-  (image 0603_RES_R54 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
@@ -472,13 +416,6 @@
    (pin PS11 (rotate 0) 2 5.10000 -1.27000)
    (pin PS11 (rotate 0) 3 5.10000 1.27000)
   )
-  (image PC817XI1J_U2 (side front)
-   (outline (rect TOP -7.75000 -3.34000 7.25000 3.34000))
-   (pin PS11 (rotate 0) 0 -5.10000 1.27000)
-   (pin PS11 (rotate 0) 1 -5.10000 -1.27000)
-   (pin PS11 (rotate 0) 2 5.10000 -1.27000)
-   (pin PS11 (rotate 0) 3 5.10000 1.27000)
-  )
   (image 0603_CAP_C9 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
@@ -495,11 +432,6 @@
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
   )
   (image 0603_CAP_C12 (side front)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS12 (rotate 0) 0 0.00000 0.00000)
-   (pin PS12 (rotate 0) 1 1.72720 0.00000)
-  )
-  (image 0603_CAP_C13 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
@@ -541,11 +473,6 @@
    (pin PS15 (rotate 0) 0 1.60000 0.00000)
    (pin PS15 (rotate 0) 1 0.00000 0.00000)
   )
-  (image LEDC1608X60_L05 (side front)
-   (outline (rect TOP -1.20000 -0.77500 2.32500 0.77500))
-   (pin PS15 (rotate 0) 0 1.60000 0.00000)
-   (pin PS15 (rotate 0) 1 0.00000 0.00000)
-  )
   (image 0603_RES_R25 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
@@ -562,11 +489,6 @@
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
   )
   (image 0603_RES_R28 (side front)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS12 (rotate 0) 0 0.00000 0.00000)
-   (pin PS12 (rotate 0) 1 1.72720 0.00000)
-  )
-  (image 0603_RES_R30 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
@@ -616,11 +538,6 @@
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
   )
-  (image 0603_RES_R31 (side front)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS12 (rotate 0) 0 0.00000 0.00000)
-   (pin PS12 (rotate 0) 1 1.72720 0.00000)
-  )
   (image 0603_CAP_C6 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
@@ -637,11 +554,6 @@
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
   )
   (image 0603_CAP_C2 (side front)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS12 (rotate 0) 0 0.00000 0.00000)
-   (pin PS12 (rotate 0) 1 1.72720 0.00000)
-  )
-  (image 0603_CAP_C4 (side front)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS12 (rotate 0) 0 0.00000 0.00000)
    (pin PS12 (rotate 0) 1 1.72720 0.00000)
@@ -696,22 +608,17 @@
    (pin PS17 (rotate 0) 0 0.00000 0.00000)
    (pin PS17 (rotate 0) 1 3.40000 0.00000)
   )
-  (image SOD2614X116_D14 (side back)
+  (image SOD2614X116_D01 (side back)
    (outline (rect TOP -0.72500 -0.97500 3.32500 1.10000))
    (pin PS18 (rotate 90) 0 2.60000 0.00000)
    (pin PS18 (rotate 90) 1 0.00000 0.00000)
   )
-  (image SOD2614X116_D5 (side back)
+  (image SOD2614X116_D02 (side back)
    (outline (rect TOP -0.72500 -0.97500 3.32500 1.10000))
    (pin PS18 (rotate 90) 0 2.60000 0.00000)
    (pin PS18 (rotate 90) 1 0.00000 0.00000)
   )
-  (image SOD2614X116_D6 (side back)
-   (outline (rect TOP -0.72500 -0.97500 3.32500 1.10000))
-   (pin PS18 (rotate 90) 0 2.60000 0.00000)
-   (pin PS18 (rotate 90) 1 0.00000 0.00000)
-  )
-  (image SOD2614X116_D7 (side back)
+  (image SOD2614X116_D03 (side back)
    (outline (rect TOP -0.72500 -0.97500 3.32500 1.10000))
    (pin PS18 (rotate 90) 0 2.60000 0.00000)
    (pin PS18 (rotate 90) 1 0.00000 0.00000)
@@ -731,17 +638,7 @@
    (pin PS19 (rotate 0) 0 1.80000 0.00000)
    (pin PS19 (rotate 0) 1 0.00000 0.00000)
   )
-  (image LEDC2012X120_Q04 (side front)
-   (outline (rect TOP -1.25000 -0.97500 2.57500 0.97500))
-   (pin PS19 (rotate 0) 0 1.80000 0.00000)
-   (pin PS19 (rotate 0) 1 0.00000 0.00000)
-  )
   (image LEDC1608X60_Q05 (side front)
-   (outline (rect TOP -1.20000 -0.77500 2.32500 0.77500))
-   (pin PS15 (rotate 0) 0 1.60000 0.00000)
-   (pin PS15 (rotate 0) 1 0.00000 0.00000)
-  )
-  (image LEDC1608X60_Q06 (side front)
    (outline (rect TOP -1.20000 -0.77500 2.32500 0.77500))
    (pin PS15 (rotate 0) 0 1.60000 0.00000)
    (pin PS15 (rotate 0) 1 0.00000 0.00000)
@@ -832,21 +729,6 @@
    (pin PS32 (rotate 0) 0 0.00000 0.00000)
    (pin PS32 (rotate 0) 1 2.13360 0.00000)
   )
-  (image 0805_RES_R39 (side back)
-   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
-   (pin PS32 (rotate 0) 0 0.00000 0.00000)
-   (pin PS32 (rotate 0) 1 2.13360 0.00000)
-  )
-  (image 0805_RES_R40 (side back)
-   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
-   (pin PS32 (rotate 0) 0 0.00000 0.00000)
-   (pin PS32 (rotate 0) 1 2.13360 0.00000)
-  )
-  (image 0805_RES_R42 (side back)
-   (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
-   (pin PS32 (rotate 0) 0 0.00000 0.00000)
-   (pin PS32 (rotate 0) 1 2.13360 0.00000)
-  )
   (image 0805_RES_R63 (side back)
    (outline (rect TOP -0.50800 -0.73660 2.64160 0.68580))
    (pin PS32 (rotate 0) 0 0.00000 0.00000)
@@ -872,11 +754,6 @@
    (pin PS16 (rotate 0) 0 0.00000 0.00000)
    (pin PS16 (rotate 0) 1 1.72720 0.00000)
   )
-  (image 0603_RES_R7 (side back)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS16 (rotate 0) 0 0.00000 0.00000)
-   (pin PS16 (rotate 0) 1 1.72720 0.00000)
-  )
   (image 0603_RES_R33 (side back)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS16 (rotate 0) 0 0.00000 0.00000)
@@ -892,17 +769,7 @@
    (pin PS16 (rotate 0) 0 0.00000 0.00000)
    (pin PS16 (rotate 0) 1 1.72720 0.00000)
   )
-  (image 0603_RES_R41 (side back)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS16 (rotate 0) 0 0.00000 0.00000)
-   (pin PS16 (rotate 0) 1 1.72720 0.00000)
-  )
   (image 0603_RES_R44 (side back)
-   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
-   (pin PS16 (rotate 0) 0 0.00000 0.00000)
-   (pin PS16 (rotate 0) 1 1.72720 0.00000)
-  )
-  (image 0603_RES_R55 (side back)
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS16 (rotate 0) 0 0.00000 0.00000)
    (pin PS16 (rotate 0) 1 1.72720 0.00000)
@@ -916,11 +783,6 @@
    (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
    (pin PS16 (rotate 0) 0 0.00000 0.00000)
    (pin PS16 (rotate 0) 1 1.72720 0.00000)
-  )
-  (image "T-BLOCK 2PIN BLUE_LINEA 220" (side front)
-   (outline (rect TOP -4.10160 -7.60160 4.10160 2.60160))
-   (pin PS3 (rotate -90) 0 0.00000 0.00000)
-   (pin PS3 (rotate -90) 1 0.00000 -5.00380)
   )
   (image "TBLOCK-M2_FUENTE" (side front)
    (outline (rect TOP -2.64160 -3.91160 7.72160 3.91160))
@@ -1007,6 +869,46 @@
    (pin PS38 (rotate 0) 27 3.10000 -2.15000)
    (pin PS38 (rotate 0) 28 -3.10000 -2.15000)
    (pin PS39 (rotate 0) 29 -3.75000 0.00000)
+  )
+  (image "TBLOCK-M2_ENTRADAS" (side front)
+   (outline (rect TOP -2.64160 -3.91160 7.72160 3.91160))
+   (pin PS3 (rotate 0) 0 0.00000 0.00000)
+   (pin PS3 (rotate 0) 1 5.00380 0.00000)
+  )
+  (image "TBLOCK-M3_J1" (side front)
+   (outline (rect TOP -2.64160 -3.91160 12.80160 3.91160))
+   (pin PS3 (rotate 0) 0 0.00000 0.00000)
+   (pin PS3 (rotate 0) 1 5.00380 0.00000)
+   (pin PS3 (rotate 0) 2 10.00760 0.00000)
+  )
+  (image 117211503_RELAY4 (side front)
+   (outline (rect TOP -4.55000 -2.80000 16.75000 14.80000))
+   (pin PS4 (rotate 0) 0 0.00000 0.00000)
+   (pin PS4 (rotate 0) 1 12.20000 0.00000)
+   (pin PS4 (rotate 0) 2 12.20000 12.00000)
+   (pin PS4 (rotate 0) 3 0.00000 12.00000)
+   (pin PS4 (rotate 0) 4 -2.00000 6.00000)
+  )
+  (image SOD2614X116_D04 (side back)
+   (outline (rect TOP -0.72500 -0.97500 3.32500 1.10000))
+   (pin PS18 (rotate 90) 0 2.60000 0.00000)
+   (pin PS18 (rotate 90) 1 0.00000 0.00000)
+  )
+  (image "TBLOCK-M3_MOSFET" (side front)
+   (outline (rect TOP -2.64160 -3.91160 12.80160 3.91160))
+   (pin PS3 (rotate 0) 0 0.00000 0.00000)
+   (pin PS3 (rotate 0) 1 5.00380 0.00000)
+   (pin PS3 (rotate 0) 2 10.00760 0.00000)
+  )
+  (image LEDC2012X120_Q04 (side front)
+   (outline (rect TOP -1.25000 -0.97500 2.57500 0.97500))
+   (pin PS19 (rotate 0) 0 1.80000 0.00000)
+   (pin PS19 (rotate 0) 1 0.00000 0.00000)
+  )
+  (image 0603_RES_R7 (side front)
+   (outline (rect TOP -0.44450 -0.50800 2.17170 0.50800))
+   (pin PS12 (rotate 0) 0 0.00000 0.00000)
+   (pin PS12 (rotate 0) 1 1.72720 0.00000)
   )
   (padstack PS0 (absolute on)
    (shape (circle TOP 1.52400 0 0))
@@ -1293,7 +1195,7 @@
   )
  )
  (network
-  (net "#00034"
+  (net "#00033"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1302,7 +1204,7 @@
    )
    (pins R17-1 U3-0)
   )
-  (net "#00039"
+  (net "#00038"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1311,7 +1213,7 @@
    )
    (pins R18-1 U14-0)
   )
-  (net "#00044"
+  (net "#00043"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1320,7 +1222,7 @@
    )
    (pins U6-0 R19-1)
   )
-  (net "#00049"
+  (net "#00048"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1329,7 +1231,7 @@
    )
    (pins R20-1 U4-0)
   )
-  (net "#00051"
+  (net "#00050"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1338,7 +1240,7 @@
    )
    (pins L01-0 R25-0)
   )
-  (net "#00054"
+  (net "#00053"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1347,7 +1249,7 @@
    )
    (pins L02-0 R26-0)
   )
-  (net "#00057"
+  (net "#00056"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1356,7 +1258,7 @@
    )
    (pins L03-0 R27-0)
   )
-  (net "#00060"
+  (net "#00059"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1365,7 +1267,7 @@
    )
    (pins L04-0 R28-0)
   )
-  (net "#00083"
+  (net "#00077"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1374,7 +1276,7 @@
    )
    (pins Q01-0 R44-1)
   )
-  (net "#00086"
+  (net "#00080"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1383,7 +1285,7 @@
    )
    (pins F1-1 D28-0)
   )
-  (net "#00092"
+  (net "#00086"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1392,7 +1294,7 @@
    )
    (pins U11-1 L1-0 D29-1)
   )
-  (net "#00097"
+  (net "#00091"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1401,7 +1303,7 @@
    )
    (pins PW-0 R64-0)
   )
-  (net "#00139"
+  (net "#00132"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1410,7 +1312,7 @@
    )
    (pins Q02-0 R5-1)
   )
-  (net "#00142"
+  (net "#00135"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1419,16 +1321,7 @@
    )
    (pins Q03-0 R6-1)
   )
-  (net "#00145"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins Q04-0 R7-1)
-  )
-  (net "#00170"
+  (net "#00159"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1437,7 +1330,7 @@
    )
    (pins Q10-0 R35-1)
   )
-  (net "#00172"
+  (net "#00161"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1446,7 +1339,7 @@
    )
    (pins U9-3 R35-0 R63-0)
   )
-  (net "#00175"
+  (net "#00164"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1455,52 +1348,16 @@
    )
    (pins U9-0 R36-1)
   )
-  (net "#00178"
+  (net "#00170"
    (circuit
     (use_layer TOP BOT)
     (use_via
      $VIA#0_SIGNAL
     )
    )
-   (pins Q1-0 R40-1)
+   (pins Q05-0 R56-0)
   )
-  (net "#00180"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins U15-3 R39-0 R40-0)
-  )
-  (net "#00183"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins U15-0 R41-1)
-  )
-  (net "#00189"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins Q05-0 R55-0)
-  )
-  (net "#00192"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins Q06-0 R56-0)
-  )
-  (net "#00228"
+  (net "#00206"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1509,7 +1366,7 @@
    )
    (pins U18-1 R14-0)
   )
-  (net "#00231"
+  (net "#00209"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1518,7 +1375,7 @@
    )
    (pins U18-0 R13-1)
   )
-  (net "#00232"
+  (net "#00210"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1527,7 +1384,7 @@
    )
    (pins U18-2 R15-1)
   )
-  (net "#00250"
+  (net "#00228"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1536,25 +1393,7 @@
    )
    (pins R84-1 D33-0)
   )
-  (net "#00265"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins R49-1 U2-0)
-  )
-  (net "#00288"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins L05-0 R30-0)
-  )
-  (net "#00303"
+  (net "#00266"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1563,7 +1402,7 @@
    )
    (pins D1-0 USBTC1-3 USBTC1-20)
   )
-  (net "#00304"
+  (net "#00267"
    (circuit
     (use_layer TOP BOT)
     (use_via
@@ -1571,6 +1410,15 @@
     )
    )
    (pins D2-0 USBTC1-8 USBTC1-15)
+  )
+  (net "#00294"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins Q04-0 R7-1)
   )
   (net "1"
    (circuit
@@ -1651,7 +1499,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins U2-3 C13-1 U1-10 R32-0)
+   (pins R32-0)
   )
   (net "5V"
    (circuit
@@ -1660,9 +1508,8 @@
      $VIA#0_SIGNAL
     )
    )
-    (pins ESP1-29 5V-1 RELAY1-0 RELAY2-0 RELAY3-0 RELAY4-0 ULN2803-9 R8-0 R29-0 R38-1
-     R43-1 R54-1 D14-1 D5-1 D6-1 D7-1 U7-2 C5-0 R5-0 R6-0 R7-0 R36-0 R41-0 R44-0 R55-1
-    R56-1 D1-1 D2-1)
+    (pins ESP1-29 5V-1 RELAY1-0 RELAY2-0 RELAY3-0 ULN2803-9 R8-0 R29-0 R38-1 R43-1 D01-1
+    D02-1 D03-1 U7-2 C5-0 R5-0 R6-0 R36-0 R44-0 R56-1 D1-1 D2-1 RELAY4-0 D04-1 R7-0)
   )
   (net "BAT"
    (circuit
@@ -1691,6 +1538,15 @@
    )
    (pins ESP1-21 ULN2803-2)
   )
+  (net "COM"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RELES-4 RELES-5 RELAY1-4 RELAY2-4 RELAY3-4 RELAY4-4)
+  )
   (net "D0"
    (circuit
     (use_layer TOP BOT)
@@ -1716,7 +1572,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ESP1-10 NODEMCU-10 U1-9 R30-1 R31-0 C4-1)
+   (pins ESP1-10 NODEMCU-10 ULN2803-1)
   )
   (net "D5"
    (circuit
@@ -1761,7 +1617,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ENTRADAS-5 R19-0 R8-1)
+   (pins R19-0 R8-1 ENTRADAS-1)
   )
   (net "DS"
    (circuit
@@ -1770,7 +1626,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ENTRADAS-4 R20-0 R29-1)
+   (pins R20-0 R29-1 ENTRADAS-0)
   )
   (net "EN"
    (circuit
@@ -1790,11 +1646,10 @@
    )
     (pins ESP1-1 ESP1-8 ESP1-24 ESP1-28 NODEMCU-1 NODEMCU-8 LCD-0 12V-0 5V-0 3.3V-0 U10-4
      U10-5 U10-6 U10-7 U10-8 U10-9 U10-10 U10-11 U10-12 U18-3 U18-6 ULN2803-8 U6-1 U6-2
-     U4-1 U4-2 U3-1 U3-2 U14-1 U14-2 U2-1 U2-2 C9-0 C10-0 C11-0 C12-0 C13-0 U1-6 L01-1
-     L02-1 L03-1 L04-1 L05-1 R1-1 R2-1 R3-1 R4-1 R31-1 C6-0 C3-0 C1-0 C2-0 C4-0 U7-1 U11-2
-     U11-4 U11-5 C21-1 C5-1 C22-1 C26-1 BAT1-0 U5-2 PW-1 D29-0 C34-0 C23-0 C35-0 FUENTE-0
-     RST-0 PRG-0 PRG-1 "WI FI"-0 "LED MQTT"-0 "LED WI-FI"-0 USBTC1-0 USBTC1-11 USBTC1-12
-    USBTC1-23)
+     U4-1 U4-2 U3-1 U3-2 U14-1 U14-2 C9-0 C10-0 C11-0 C12-0 U1-6 L01-1 L02-1 L03-1 L04-1
+     R1-1 R2-1 R3-1 R4-1 C6-0 C3-0 C1-0 C2-0 U7-1 U11-2 U11-4 U11-5 C21-1 C5-1 C22-1 C26-1
+     BAT1-0 U5-2 PW-1 D29-0 C34-0 C23-0 C35-0 FUENTE-0 RST-0 PRG-0 PRG-1 "WI FI"-0 "LED MQTT"-0
+    "LED WI-FI"-0 USBTC1-0 USBTC1-11 USBTC1-12 USBTC1-23)
   )
   (net "IN3"
    (circuit
@@ -1803,7 +1658,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ENTRADAS-3 R17-0 R38-0)
+   (pins R17-0 R38-0 J1-2)
   )
   (net "IN4"
    (circuit
@@ -1812,16 +1667,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ENTRADAS-2 R18-0 R43-0)
-  )
-  (net "IN5"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins ENTRADAS-1 R49-0 R54-0)
+   (pins R18-0 R43-0 J1-1)
   )
   (net "INT"
    (circuit
@@ -1839,7 +1685,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins Q1-1 Q10-1 R39-1 R63-1 "LINEA 220"-0)
+   (pins Q10-1 R63-1 MOSFET-2)
   )
   (net "M"
    (circuit
@@ -1848,7 +1694,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins RELAY1-4 RELAY2-4 RELAY3-4 RELAY4-4 U9-2 U15-2 R37-0 R42-0 "LINEA 220"-1)
+   (pins U9-2 R37-0 MOSFET-1)
   )
   (net "MQ"
    (circuit
@@ -1857,7 +1703,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ESP1-15 ENTRADAS-0)
+   (pins ESP1-15 J1-0)
   )
   (net "MQA"
    (circuit
@@ -1868,6 +1714,24 @@
    )
    (pins R34-0 "LED MQTT"-1)
   )
+  (net "Q0.1"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RELES-0 RELAY1-1)
+  )
+  (net "Q0.2"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins RELES-1 RELAY2-1)
+  )
   (net "Q0.3"
    (circuit
     (use_layer TOP BOT)
@@ -1875,7 +1739,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins SALIDAS-5 Q1-2 R42-1)
+   (pins RELES-2 RELAY3-1)
   )
   (net "Q0.4"
    (circuit
@@ -1884,7 +1748,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins SALIDAS-4 Q10-2 R37-1)
+   (pins RELES-3 RELAY4-1)
   )
   (net "Q0.5"
    (circuit
@@ -1893,34 +1757,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins SALIDAS-3 RELAY4-1)
-  )
-  (net "Q0.6"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins SALIDAS-2 RELAY3-1)
-  )
-  (net "Q0.7"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins SALIDAS-1 RELAY2-1)
-  )
-  (net "Q0.8"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins SALIDAS-0 RELAY1-1)
+   (pins Q10-2 R37-1 MOSFET-0)
   )
   (net "Q1"
    (circuit
@@ -1929,7 +1766,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins RELAY1-3 ULN2803-17 D14-0 Q01-1)
+   (pins RELAY1-3 ULN2803-17 D01-0 Q01-1)
   )
   (net "Q2"
    (circuit
@@ -1938,7 +1775,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins RELAY2-3 ULN2803-16 D5-0 Q02-1)
+   (pins RELAY2-3 ULN2803-16 D02-0 Q02-1)
   )
   (net "Q3"
    (circuit
@@ -1947,7 +1784,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins RELAY3-3 ULN2803-15 D6-0 Q03-1)
+   (pins RELAY3-3 ULN2803-15 D03-0 Q03-1)
   )
   (net "Q4"
    (circuit
@@ -1956,7 +1793,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins RELAY4-3 ULN2803-14 D7-0 Q04-1)
+   (pins ULN2803-13 RELAY4-3 D04-0 Q04-1)
   )
   (net "Q5"
    (circuit
@@ -1965,16 +1802,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ULN2803-13 U9-1 Q05-1)
-  )
-  (net "Q6"
-   (circuit
-    (use_layer TOP BOT)
-    (use_via
-     $VIA#0_SIGNAL
-    )
-   )
-   (pins ULN2803-12 U15-1 Q06-1)
+   (pins ULN2803-12 U9-1 Q05-1)
   )
   (net "RST"
    (circuit
@@ -2019,7 +1847,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ESP1-22 ULN2803-1)
+   (pins ESP1-22)
   )
   (net "SD1"
    (circuit
@@ -2028,7 +1856,7 @@
      $VIA#0_SIGNAL
     )
    )
-   (pins ESP1-20 ULN2803-3)
+   (pins ESP1-20)
   )
   (net "SD2"
    (circuit
@@ -2101,37 +1929,31 @@
    )
   )
   (class SIGNAL
-   "#00034"
-   "#00039"
-   "#00044"
-   "#00049"
-   "#00051"
-   "#00054"
-   "#00057"
-   "#00060"
-   "#00083"
+   "#00033"
+   "#00038"
+   "#00043"
+   "#00048"
+   "#00050"
+   "#00053"
+   "#00056"
+   "#00059"
+   "#00077"
+   "#00080"
    "#00086"
-   "#00092"
-   "#00097"
-   "#00139"
-   "#00142"
-   "#00145"
+   "#00091"
+   "#00132"
+   "#00135"
+   "#00159"
+   "#00161"
+   "#00164"
    "#00170"
-   "#00172"
-   "#00175"
-   "#00178"
-   "#00180"
-   "#00183"
-   "#00189"
-   "#00192"
+   "#00206"
+   "#00209"
+   "#00210"
    "#00228"
-   "#00231"
-   "#00232"
-   "#00250"
-   "#00265"
-   "#00288"
-   "#00303"
-   "#00304"
+   "#00266"
+   "#00267"
+   "#00294"
    "1"
    "12V"
    "2"
@@ -2145,6 +1967,7 @@
    "BAT"
    "CLK"
    "CMD"
+   "COM"
    "D0"
    "D3"
    "D4"
@@ -2157,24 +1980,21 @@
    "EN"
    "IN3"
    "IN4"
-   "IN5"
    "INT"
    "L"
    "M"
    "MQ"
    "MQA"
+   "Q0.1"
+   "Q0.2"
    "Q0.3"
    "Q0.4"
    "Q0.5"
-   "Q0.6"
-   "Q0.7"
-   "Q0.8"
    "Q1"
    "Q2"
    "Q3"
    "Q4"
    "Q5"
-   "Q6"
    "RST"
    "RST1"
    "RX"
