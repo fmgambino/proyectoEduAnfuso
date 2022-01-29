@@ -15,7 +15,7 @@ DEFINICION DE BOTONES
 
  - BTN1 - DERIVA A MASA  => RST   
  - BTN2 - DERIVA A MASA  => EN     
- - BTN3 - DERIVA A MASA  => D7    => IO13 
+ - BTN3 - WI-FI RST  => D7    => IO13 
  - BTN4 - DEEP SLEEP     => D0    => IO16
 
 ETAPA DE SALIDA Definiciones PININ ESP12
