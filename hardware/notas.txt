@@ -2,39 +2,39 @@ ETAPA DE ENTRADA Definiciones     PININ   ESP12
 
 - Sensor 01 MQ135 (Gas)     +5V => A0 => A0  - ENTRADA ANALOGICA
 
-- Sensor 02 DHT22 (Hum)     +5V => D5 => IO14 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 10K
+- Sensor 02 DHT22 (Hum)     +5V => TX => IO1 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 10K
 
-- Sensor 03 DS18BS20 (Temp) +5V => D6 => IO12 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
+- Sensor 03 DS18BS20 (Temp) +5V => RX => IO3 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
 
-- Sensor 04  -----------    +5V => TX => IO1 - LO DEFINO COMO ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
+- Sensor 04  -----------    +5V => SD2 => IO9 - LO DEFINO COMO ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
 
-- Sensor 05  -----------    +5V => RX => IO3 - LO DEFINO COMO ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
+- Sensor 05  -----------    +5V => SD3 => IO10 - LO DEFINO COMO ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
 
 
 DEFINICION DE BOTONES
 
- - BTN1 - DERIVA A MASA  => RST   
- - BTN2 - DERIVA A MASA  => EN     
- - BTN3 - WI-FI RST  => D7    => IO13 
- - BTN4 - DEEP SLEEP     => D0    => IO16
+ - BTN1 - DERIVA A MASA      => RST   
+ - BTN2 - DERIVA A MASA      => EN     
+ - BTN3 - WI-FI RST  => D8   => IO15 
+ - BTN4 - DEEP SLEEP         => D0    => IO16
 
 ETAPA DE SALIDA Definiciones PININ ESP12
 
-Q1 - Actuador 01 Rele (Gas)  => CLK => IO6  / ACCIONA RELAY1
+Q1 - Actuador 01 Rele (Gas)  => D5 => IO14  / ACCIONA RELAY1
 
-Q2 - Actuador 02 Rele (Hum)  => D4 => IO2  / ACCIONA RELAY2 
+Q2 - Actuador 02 Rele (Hum)  => D6 => IO12  / ACCIONA RELAY2 
 
-Q3 - Actuador 03 Rele (Temp) => CMD => IO11 / ACCIONA RELAY3
+Q3 - Actuador 03 Rele (Temp) => D7 => IO13 / ACCIONA RELAY3
 
-Q4 - Actuador 04 Rele        => SD2 => IO9  / ACCIONA RELAY4
+//Q4 - Actuador 04 Rele      => XX => IOXX  / ACCIONA RELAY4 -> SE ELIMINA POR FALTA DE PINES
 
-Q5 - Actuador 05 MOSFET      => SD3 => I10  / ACCIONA SALIDA MOSFET 1
+Q5 - Actuador 05 MOSFET      => XX => IOXX  / ACCIONA SALIDA MOSFET -> SE ELIMINA POR FALTA DE PINES
 
-- wi fi led               => D8  => IO15 / ENCIENDE LED WIFI
+- WI-FI  LED                 => D3  => IO0 / ENCIENDE LED WIFI
 
-- mqtt led                => D3  => IO0  / ENCIENDE LED MQTT
+- MQTT LED                   => D4  => IO2  / ENCIENDE LED MQTT
 
-I2C PORT COMO
+I2C PORT COM PARA RTC Y OLED
 
-- SDA   (RTC)             => D2  => IO4 / CONTROLA RTC
-- SCL   (RTC)             => D1  => IO5 / CONTROLA RTC
+- SDA   (RTC)               => D2  => IO4 / CONTROLA RTC
+- SCL   (RTC)               => D1  => IO5 / CONTROLA RTC

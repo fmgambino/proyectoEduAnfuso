@@ -1,0 +1,448 @@
+(PCB adaptadorPuertos
+ (parser
+  (host_cad ARES)
+  (host_version 8.11 SP0)
+ )
+ (resolution mm 100000)
+ (unit mm)
+ (structure
+  (boundary (rect pcb -4.27160 -38.16400 59.39500 3.12720))
+  (boundary (path signal 0.20320 0.00000 -35.90000 49.70000 -35.90000 49.70000 -0.10000
+   0.00000 -0.10000 0.00000 -35.90000))
+  (flip_style mirror_first)
+  (layer TOP (type signal) (direction horizontal))
+  (layer I1 (type signal) (direction off))
+  (layer I2 (type signal) (direction off))
+  (layer I3 (type signal) (direction off))
+  (layer I4 (type signal) (direction off))
+  (layer I5 (type signal) (direction off))
+  (layer I6 (type signal) (direction off))
+  (layer I7 (type signal) (direction off))
+  (layer I8 (type signal) (direction off))
+  (layer I9 (type signal) (direction off))
+  (layer I10 (type signal) (direction off))
+  (layer I11 (type signal) (direction off))
+  (layer I12 (type signal) (direction off))
+  (layer I13 (type signal) (direction off))
+  (layer I14 (type signal) (direction off))
+  (layer BOT (type signal) (direction vertical))
+  (grid via  0.25400)
+  (grid wire 0.25400)
+  (control
+   (via_at_smd off)
+   (off_grid on)
+  )
+  (via
+   $VIA#0_SIGNAL
+   (spare
+   )
+  )
+  (rule
+   (width 0.25400)
+   (clearance 0.38100)
+   (clearance 0.25400 (type wire_via))
+   (clearance 0.25400 (type wire_smd))
+   (clearance 0.25400 (type wire_pin))
+   (clearance 0.25400 (type wire_wire))
+   (clearance 0.25400 (type via_pin))
+   (clearance 0.25400 (type via_via))
+   (clearance 0.25400 (type via_smd))
+  )
+ )
+ (placement
+  (component CON16_1X16_U_FCI_ESPB (place ESPB 25.02000 -31.50000 front -180))
+  (component CON16_1X16_U_FCI_NODEMCU (place NODEMCU 24.82000 -1.80000 front 180))
+  (component CON16_1X16_U_FCI_ESPA (place ESPA 24.82000 -4.40000 front 180))
+  (component CON16_1X16_U_FCI_ESPA1 (place ESPA1 24.82000 -7.00000 front 180))
+  (component CON16_1X16_U_FCI_ESPB1 (place ESPB1 25.02000 -34.40000 front 180))
+  (component CON16_1X16_U_FCI_NODEMCU1 (place NODEMCU1 24.84000 -9.70000 front 180))
+ )
+ (library
+  (image CON16_1X16_U_FCI_ESPB (side front)
+   (outline (rect TOP -21.79320 -1.60020 24.33320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+   (pin PS0 (rotate 0) 15 20.32000 0.00000)
+  )
+  (image CON16_1X16_U_FCI_NODEMCU (side front)
+   (outline (rect TOP -21.79320 -1.60020 24.33320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+   (pin PS0 (rotate 0) 15 20.32000 0.00000)
+  )
+  (image CON16_1X16_U_FCI_ESPA (side front)
+   (outline (rect TOP -21.79320 -1.60020 24.33320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+   (pin PS0 (rotate 0) 15 20.32000 0.00000)
+  )
+  (image CON16_1X16_U_FCI_ESPA1 (side front)
+   (outline (rect TOP -21.79320 -1.60020 24.33320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+   (pin PS0 (rotate 0) 15 20.32000 0.00000)
+  )
+  (image CON16_1X16_U_FCI_ESPB1 (side front)
+   (outline (rect TOP -21.79320 -1.60020 24.33320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+   (pin PS0 (rotate 0) 15 20.32000 0.00000)
+  )
+  (image CON16_1X16_U_FCI_NODEMCU1 (side front)
+   (outline (rect TOP -21.79320 -1.60020 24.33320 2.54000))
+   (pin PS0 (rotate 0) 0 -17.78000 0.00000)
+   (pin PS0 (rotate 0) 1 -15.24000 0.00000)
+   (pin PS0 (rotate 0) 2 -12.70000 0.00000)
+   (pin PS0 (rotate 0) 3 -10.16000 0.00000)
+   (pin PS0 (rotate 0) 4 -7.62000 0.00000)
+   (pin PS0 (rotate 0) 5 -5.08000 0.00000)
+   (pin PS0 (rotate 0) 6 -2.54000 0.00000)
+   (pin PS0 (rotate 0) 7 0.00000 0.00000)
+   (pin PS0 (rotate 0) 8 2.54000 0.00000)
+   (pin PS0 (rotate 0) 9 5.08000 0.00000)
+   (pin PS0 (rotate 0) 10 7.62000 0.00000)
+   (pin PS0 (rotate 0) 11 10.16000 0.00000)
+   (pin PS0 (rotate 0) 12 12.70000 0.00000)
+   (pin PS0 (rotate 0) 13 15.24000 0.00000)
+   (pin PS0 (rotate 0) 14 17.78000 0.00000)
+   (pin PS0 (rotate 0) 15 20.32000 0.00000)
+  )
+  (padstack PS0 (absolute on)
+   (shape (circle TOP 1.52400 0 0))
+   (shape (circle BOT 1.52400 0 0))
+  )
+  (padstack $VIA#0_SIGNAL (absolute on)
+   (shape (circle TOP 0.76200 0 0))
+   (shape (circle I1 0.76200 0 0))
+   (shape (circle I2 0.76200 0 0))
+   (shape (circle I3 0.76200 0 0))
+   (shape (circle I4 0.76200 0 0))
+   (shape (circle I5 0.76200 0 0))
+   (shape (circle I6 0.76200 0 0))
+   (shape (circle I7 0.76200 0 0))
+   (shape (circle I8 0.76200 0 0))
+   (shape (circle I9 0.76200 0 0))
+   (shape (circle I10 0.76200 0 0))
+   (shape (circle I11 0.76200 0 0))
+   (shape (circle I12 0.76200 0 0))
+   (shape (circle I13 0.76200 0 0))
+   (shape (circle I14 0.76200 0 0))
+   (shape (circle BOT 0.76200 0 0))
+  )
+ )
+ (network
+  (net "5V"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-0 NODEMCU1-0)
+  )
+  (net "AD4"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-6 ESPA-10 ESPA1-6)
+  )
+  (net "BCLK"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-7 ESPA1-7 NODEMCU1-6)
+  )
+  (net "BCMD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-5 ESPA1-5 NODEMCU1-8)
+  )
+  (net "BSD0"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU1-7)
+  )
+  (net "CLK"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-6)
+  )
+  (net "CMD"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-8)
+  )
+  (net "D0"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-14 ESPA-14 ESPA1-14)
+  )
+  (net "D3"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-11 ESPA-11 ESPA1-11)
+  )
+  (net "D4"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-10 ESPA-4 ESPA1-10)
+  )
+  (net "D8"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-4 ESPA-5 ESPA1-4)
+  )
+  (net "EN"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-3 NODEMCU1-3)
+  )
+  (net "GND"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+    (pins ESPB-1 ESPB-5 NODEMCU-1 NODEMCU-8 ESPA-1 ESPA-8 ESPA1-1 ESPA1-8 NODEMCU1-1 NODEMCU1-5
+   )
+  )
+  (net "MQ"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-14 NODEMCU1-14)
+  )
+  (net "RST"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-2 NODEMCU1-2)
+  )
+  (net "RX"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-3 ESPA-3 ESPA1-3)
+  )
+  (net "SCL"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-13 ESPA-13 ESPA1-13)
+  )
+  (net "SD0"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-7)
+  )
+  (net "SD1"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-9)
+  )
+  (net "SD2"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-10 ESPA-6)
+  )
+  (net "SD3"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins ESPB-11 ESPA-2)
+  )
+  (net "SDA"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-12 ESPA-12 ESPA1-12)
+  )
+  (net "TX"
+   (circuit
+    (use_layer TOP BOT)
+    (use_via
+     $VIA#0_SIGNAL
+    )
+   )
+   (pins NODEMCU-2 ESPA-7 ESPA1-2)
+  )
+  (class SIGNAL
+   "5V"
+   "AD4"
+   "BCLK"
+   "BCMD"
+   "BSD0"
+   "CLK"
+   "CMD"
+   "D0"
+   "D3"
+   "D4"
+   "D8"
+   "EN"
+   "GND"
+   "MQ"
+   "RST"
+   "RX"
+   "SCL"
+   "SD0"
+   "SD1"
+   "SD2"
+   "SD3"
+   "SDA"
+   "TX"
+   "{NC}"
+   "{VOID}"
+   (rule
+    (width 0.25400)
+    (clearance 0.38100)
+    (clearance 0.25400 (type wire_via))
+    (clearance 0.25400 (type wire_smd))
+    (clearance 0.25400 (type wire_pin))
+    (clearance 0.25400 (type wire_wire))
+    (clearance 0.25400 (type via_pin))
+    (clearance 0.25400 (type via_via))
+    (clearance 0.25400 (type via_smd))
+   )
+  )
+ )
+ (wiring
+ )
+)
