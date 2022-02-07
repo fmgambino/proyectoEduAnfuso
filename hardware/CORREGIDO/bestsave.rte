@@ -57,12 +57,30 @@
    (shape (circ I14 76200 0 0))
    (shape (circ BOT 76200 0 0))
   )
+  (padstack PS1
+   (shape (circ TOP 76200 0 0))
+   (shape (circ I1 76200 0 0))
+   (shape (circ I2 76200 0 0))
+   (shape (circ I3 76200 0 0))
+   (shape (circ I4 76200 0 0))
+   (shape (circ I5 76200 0 0))
+   (shape (circ I6 76200 0 0))
+   (shape (circ I7 76200 0 0))
+   (shape (circ I8 76200 0 0))
+   (shape (circ I9 76200 0 0))
+   (shape (circ I10 76200 0 0))
+   (shape (circ I11 76200 0 0))
+   (shape (circ I12 76200 0 0))
+   (shape (circ I13 76200 0 0))
+   (shape (circ I14 76200 0 0))
+   (shape (circ BOT 76200 0 0))
+  )
   )
   (network_out
    (Net 5V 
    (rule
    )
-   (wire (path BOT 25400  4280000 -3150000 4280000 -1143000 4262000 -1143000
+   (wire (path BOT 25400  4280000 -3150000 4280000 -2658566 4262000 -2658566
      4262000 -970000)
     (connect (terminal pin ESPB-0) (terminal pin NODEMCU1-0))
    )
@@ -70,30 +88,25 @@
    (Net AD4 
    (rule
    )
-   (wire (path TOP 25400  1720000 -440000 1720000 -304800 2736000 -304800
-     2736000 -180000)
-    (connect (terminal pin ESPA-10) (terminal pin NODEMCU-6))
+   (wire (path TOP 25400  2736000 -180000 2736000 -304800 1720000 -304800
+     1720000 -440000)
+    (connect (terminal pin NODEMCU-6) (terminal pin ESPA-10))
    )
-   (wire (path BOT 25400  2736000 -700000 2870200 -565800 2870200 -314200
-     2736000 -180000)
-    (connect (terminal pin ESPA1-6) (terminal pin NODEMCU-6))
-    (attr bus)
+   (wire (path BOT 25400  2736000 -180000 2870200 -180000 2870200 -700000
+     2736000 -700000)
+    (connect (terminal pin NODEMCU-6) (terminal pin ESPA1-6))
    )
    )
    (Net BCLK 
    (rule
    )
-   (wire (path TOP 25400  2482000 -700000 2482000 -838200 2738000 -838200
+   (wire (path TOP 25400  2482000 -700000 2616200 -700000 2616200 -970000
      2738000 -970000)
     (connect (terminal pin ESPA1-7) (terminal pin NODEMCU1-6))
    )
-   (wire (path BOT 25400  2616200 -558800 2616200 -314200 2482000 -180000)
-    (connect (terminal wire) (terminal pin NODEMCU-7))
-    (attr bus)
-   )
-   (wire (path BOT 25400  2482000 -700000 2616200 -565800 2616200 -558800)
-    (connect (terminal pin ESPA1-7) (terminal wire))
-    (attr bus)
+   (wire (path BOT 25400  2482000 -180000 2616200 -180000 2616200 -700000
+     2482000 -700000)
+    (connect (terminal pin NODEMCU-7) (terminal pin ESPA1-7))
    )
    )
    (Net BCMD 
@@ -103,10 +116,9 @@
      2230000 -970000)
     (connect (terminal pin ESPA1-5) (terminal pin NODEMCU1-8))
    )
-   (wire (path BOT 25400  2990000 -700000 3124200 -565800 3124200 -314200
-     2990000 -180000)
-    (connect (terminal pin ESPA1-5) (terminal pin NODEMCU-5))
-    (attr bus)
+   (wire (path BOT 25400  2990000 -180000 3124200 -180000 3124200 -700000
+     2990000 -700000)
+    (connect (terminal pin NODEMCU-5) (terminal pin ESPA1-5))
    )
    )
    (Net BSD0 
@@ -124,59 +136,62 @@
    (Net D0 
    (rule
    )
-   (wire (path BOT 25400  704000 -180000 704000 -440000)
-    (connect (terminal pin NODEMCU-14) (terminal pin ESPA-14))
-    (attr bus)
+   (wire (path BOT 25400  4394200 -1219200 4394200 -2200000 4820000 -2200000)
+    (connect (terminal via) (terminal pin "DEEP SLEEP"-0))
+   )
+   (wire (path TOP 25400  838200 -1219200 4394200 -1219200)
+    (connect (terminal via) (terminal via))
+   )
+   (wire (path BOT 25400  704000 -700000 838200 -700000 838200 -1219200)
+    (connect (terminal pin ESPA1-14) (terminal via))
    )
    (wire (path BOT 25400  704000 -440000 704000 -700000)
     (connect (terminal pin ESPA-14) (terminal pin ESPA1-14))
-    (attr bus)
    )
+   (wire (path BOT 25400  704000 -180000 704000 -440000)
+    (connect (terminal pin NODEMCU-14) (terminal pin ESPA-14))
+   )
+   (via $VIA#0_SIGNAL 4394200 -1219200)
+   (via $VIA#0_SIGNAL 838200 -1219200)
    )
    (Net D3 
    (rule
    )
-   (wire (path BOT 25400  1466000 -180000 1466000 -440000)
-    (connect (terminal pin NODEMCU-11) (terminal pin ESPA-11))
-    (attr bus)
-   )
    (wire (path BOT 25400  1466000 -440000 1466000 -700000)
     (connect (terminal pin ESPA-11) (terminal pin ESPA1-11))
-    (attr bus)
+   )
+   (wire (path BOT 25400  1466000 -180000 1466000 -440000)
+    (connect (terminal pin NODEMCU-11) (terminal pin ESPA-11))
    )
    )
    (Net D4 
    (rule
    )
    (wire (path BOT 25400  3244000 -440000 3378200 -440000 3378200 -1143000
-     2108200 -1143000 2108200 -558800 1854200 -558800)
-    (connect (terminal pin ESPA-4) (terminal wire))
+     1854200 -1143000 1854200 -700000 1720000 -700000)
+    (connect (terminal pin ESPA-4) (terminal pin ESPA1-10))
    )
-   (wire (path BOT 25400  1854200 -558800 1854200 -314200 1720000 -180000)
-    (connect (terminal wire) (terminal pin NODEMCU-10))
-    (attr bus)
-   )
-   (wire (path BOT 25400  1720000 -700000 1854200 -565800 1854200 -558800)
-    (connect (terminal pin ESPA1-10) (terminal wire))
-    (attr bus)
+   (wire (path BOT 25400  1720000 -180000 1600200 -180000 1600200 -700000
+     1720000 -700000)
+    (connect (terminal pin NODEMCU-10) (terminal pin ESPA1-10))
    )
    )
    (Net D8 
    (rule
    )
-   (wire (path TOP 25400  3244000 -180000 3244000 -304800 2990000 -304800
-     2990000 -440000)
-    (connect (terminal pin NODEMCU-4) (terminal pin ESPA-5))
-   )
    (wire (path TOP 25400  2990000 -440000 3124200 -440000 3124200 -700000
      3244000 -700000)
     (connect (terminal pin ESPA-5) (terminal pin ESPA1-4))
+   )
+   (wire (path TOP 25400  3244000 -180000 3244000 -304800 2990000 -304800
+     2990000 -440000)
+    (connect (terminal pin NODEMCU-4) (terminal pin ESPA-5))
    )
    )
    (Net EN 
    (rule
    )
-   (wire (path BOT 25400  3518000 -3150000 3518000 -2653599 3500000 -2653599
+   (wire (path BOT 25400  3518000 -3150000 3518000 -3022600 3500000 -3022600
      3500000 -970000)
     (connect (terminal pin ESPB-3) (terminal pin NODEMCU1-3))
    )
@@ -184,49 +199,42 @@
    (Net GND 
    (rule
    )
-   (wire (path TOP 25400  3733800 -1244600 3733800 -1092200 2992000 -1092200
-     2992000 -970000)
-    (connect (terminal wire) (terminal pin NODEMCU1-5))
+   (wire (path TOP 25400  2992000 -970000 2870200 -970000 2870200 -1117600
+     2362200 -1117600 2362200 -700000 2228000 -700000)
+    (connect (terminal pin NODEMCU1-5) (terminal pin ESPA1-8))
    )
-   (wire (path TOP 25400  3733800 -1244600 4008000 -1244600 4008000 -970000)
-    (connect (terminal wire) (terminal pin NODEMCU1-1))
-   )
-   (wire (path TOP 25400  2228000 -700000 2362200 -700000 2362200 -1244600
-     3733800 -1244600)
-    (connect (terminal pin ESPA1-8) (terminal wire))
-   )
-   (wire (path BOT 25400  4026000 -3150000 4026000 -1375735 4008000 -1375735
+   (wire (path BOT 25400  4026000 -3150000 4026000 -2768600 4008000 -2768600
      4008000 -970000)
     (connect (terminal pin ESPB-1) (terminal pin NODEMCU1-1))
    )
    (wire (path BOT 25400  4008000 -970000 4006000 -970000 4006000 -700000)
     (connect (terminal pin NODEMCU1-1) (terminal pin ESPA1-1))
    )
+   (wire (path TOP 25400  4008000 -970000 4008000 -1117600 2992000 -1117600
+     2992000 -970000)
+    (connect (terminal pin NODEMCU1-1) (terminal pin NODEMCU1-5))
+   )
    (wire (path TOP 25400  4026000 -3150000 4026000 -2971800 3010000 -2971800
      3010000 -3150000)
     (connect (terminal pin ESPB-1) (terminal pin ESPB-5))
    )
-   (wire (path BOT 25400  2228000 -180000 2228000 -440000)
-    (connect (terminal pin NODEMCU-8) (terminal pin ESPA-8))
-    (attr bus)
-   )
-   (wire (path BOT 25400  2228000 -440000 2228000 -700000)
-    (connect (terminal pin ESPA-8) (terminal pin ESPA1-8))
-    (attr bus)
+   (wire (path BOT 25400  4006000 -440000 4006000 -700000)
+    (connect (terminal pin ESPA-1) (terminal pin ESPA1-1))
    )
    (wire (path BOT 25400  4006000 -180000 4006000 -440000)
     (connect (terminal pin NODEMCU-1) (terminal pin ESPA-1))
-    (attr bus)
    )
-   (wire (path BOT 25400  4006000 -440000 4006000 -700000)
-    (connect (terminal pin ESPA-1) (terminal pin ESPA1-1))
-    (attr bus)
+   (wire (path BOT 25400  2228000 -440000 2228000 -700000)
+    (connect (terminal pin ESPA-8) (terminal pin ESPA1-8))
+   )
+   (wire (path BOT 25400  2228000 -180000 2228000 -440000)
+    (connect (terminal pin NODEMCU-8) (terminal pin ESPA-8))
    )
    )
    (Net MQ 
    (rule
    )
-   (wire (path BOT 25400  724000 -3150000 724000 -2738397 706000 -2738397
+   (wire (path BOT 25400  724000 -3150000 724000 -1557289 706000 -1557289
      706000 -970000)
     (connect (terminal pin ESPB-14) (terminal pin NODEMCU1-14))
    )
@@ -234,7 +242,11 @@
    (Net RST 
    (rule
    )
-   (wire (path BOT 25400  3772000 -3150000 3772000 -2785186 3754000 -2785186
+   (wire (path TOP 25400  3772000 -3150000 3772000 -3302000 4511190 -3302000
+     4511190 -1946000 4820000 -1946000)
+    (connect (terminal pin ESPB-2) (terminal pin "DEEP SLEEP"-1))
+   )
+   (wire (path BOT 25400  3772000 -3150000 3772000 -2888163 3754000 -2888163
      3754000 -970000)
     (connect (terminal pin ESPB-2) (terminal pin NODEMCU1-2))
    )
@@ -242,25 +254,21 @@
    (Net RX 
    (rule
    )
-   (wire (path BOT 25400  3498000 -180000 3498000 -440000)
-    (connect (terminal pin NODEMCU-3) (terminal pin ESPA-3))
-    (attr bus)
-   )
    (wire (path BOT 25400  3498000 -440000 3498000 -700000)
     (connect (terminal pin ESPA-3) (terminal pin ESPA1-3))
-    (attr bus)
+   )
+   (wire (path BOT 25400  3498000 -180000 3498000 -440000)
+    (connect (terminal pin NODEMCU-3) (terminal pin ESPA-3))
    )
    )
    (Net SCL 
    (rule
    )
-   (wire (path BOT 25400  958000 -180000 958000 -440000)
-    (connect (terminal pin NODEMCU-13) (terminal pin ESPA-13))
-    (attr bus)
-   )
    (wire (path BOT 25400  958000 -440000 958000 -700000)
     (connect (terminal pin ESPA-13) (terminal pin ESPA1-13))
-    (attr bus)
+   )
+   (wire (path BOT 25400  958000 -180000 958000 -440000)
+    (connect (terminal pin NODEMCU-13) (terminal pin ESPA-13))
    )
    )
    (Net SD0 
@@ -279,7 +287,7 @@
     (connect (terminal via) (terminal pin ESPA-6))
    )
    (wire (path BOT 25400  1740000 -3150000 1740000 -3302000 3657600 -3302000
-     3657600 -1143000 3632200 -1143000 3632200 -838200)
+     3657600 -3022600 3632200 -3022600 3632200 -838200)
     (connect (terminal pin ESPB-10) (terminal via))
    )
    (via $VIA#0_SIGNAL 3632200 -838200)
@@ -287,35 +295,33 @@
    (Net SD3 
    (rule
    )
-   (wire (path TOP 25400  1486000 -3150000 1486000 -1910557 4394200 -1910557
-     4394200 -584200 3752000 -584200 3752000 -440000)
+   (wire (path TOP 25400  1486000 -3150000 1486000 -2003052 4317446 -2003052
+     4317446 -1798831 4470400 -1798831 4470400 -584200 3752000 -584200
+     3752000 -440000)
     (connect (terminal pin ESPB-11) (terminal pin ESPA-2))
    )
    )
    (Net SDA 
    (rule
    )
-   (wire (path BOT 25400  1212000 -180000 1212000 -440000)
-    (connect (terminal pin NODEMCU-12) (terminal pin ESPA-12))
-    (attr bus)
-   )
    (wire (path BOT 25400  1212000 -440000 1212000 -700000)
     (connect (terminal pin ESPA-12) (terminal pin ESPA1-12))
-    (attr bus)
+   )
+   (wire (path BOT 25400  1212000 -180000 1212000 -440000)
+    (connect (terminal pin NODEMCU-12) (terminal pin ESPA-12))
    )
    )
    (Net TX 
    (rule
    )
-   (wire (path TOP 25400  2482000 -440000 2482000 -584200 2108200 -584200
-     2108200 -1346200 4140200 -1346200 4140200 -838200 3752000 -838200
-     3752000 -700000)
-    (connect (terminal pin ESPA-7) (terminal pin ESPA1-2))
+   (wire (path TOP 25400  3752000 -700000 3752000 -838200 4140200 -838200
+     4140200 -1168400 2108200 -1168400 2108200 -584200 2482000 -584200
+     2482000 -440000)
+    (connect (terminal pin ESPA1-2) (terminal pin ESPA-7))
    )
-   (wire (path BOT 25400  3752000 -700000 3886200 -565800 3886200 -314200
-     3752000 -180000)
-    (connect (terminal pin ESPA1-2) (terminal pin NODEMCU-2))
-    (attr bus)
+   (wire (path BOT 25400  3752000 -180000 3886200 -180000 3886200 -700000
+     3752000 -700000)
+    (connect (terminal pin NODEMCU-2) (terminal pin ESPA1-2))
    )
    )
   )
