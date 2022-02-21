@@ -19,8 +19,8 @@ int RX = 3;  // s3
 
 int D5 = 14;  // clk
 int D6 = 12;   // D4
-int D7 = 13;  // cmd
-int D8 = 15;   // s2
+int D7 = 13;  // RELE 3
+int D8 = 15;   // WI-FI RST
 int TX = 1;  // s3
 
 
@@ -35,14 +35,13 @@ void setup() {
   pinMode(D6, OUTPUT);
   pinMode(D7, OUTPUT);
   pinMode(D8, OUTPUT);
-  pinMode(TX, OUTPUT);
-  pinMode(RX, OUTPUT);
+//  pinMode(TX, INPUT);
+//  pinMode(RX, INPUT);
 //pinMode(CMD, OUTPUT);
 //pinMode(SD0, OUTPUT);
 //pinMode(SD1, OUTPUT);
-  pinMode(SD2, OUTPUT);
-//pinMode(SD1, OUTPUT);
-//pinMode(SD3, OUTPUT);
+//  pinMode(SD2, INPUT);
+//  pinMode(SD3, INPUT);
   
 }
 
@@ -58,9 +57,9 @@ digitalWrite(D5, LOW);
 digitalWrite(D6, LOW);
 digitalWrite(D7, LOW);
 digitalWrite(D8, LOW);
-digitalWrite(TX, LOW);
-digitalWrite(RX, LOW);
-
+//digitalWrite(TX, LOW);
+//digitalWrite(RX, LOW);
+/*
   digitalWrite(D0, LOW);
   delay(t1);
   digitalWrite(D0, HIGH);
@@ -75,15 +74,15 @@ digitalWrite(RX, LOW);
   delay(t1);
   digitalWrite(D2, HIGH);
   delay(t2);
-
-  digitalWrite(D3, LOW);
-  delay(t1);
+*/
   digitalWrite(D3, HIGH);
+  delay(t1);
+  digitalWrite(D3, LOW);
   delay(t2);
 
-  digitalWrite(D4, LOW);
-  delay(t1);
   digitalWrite(D4, HIGH);
+  delay(t1);
+  digitalWrite(D4, LOW);
   delay(t2);
 
   digitalWrite(D5, LOW);
@@ -100,13 +99,12 @@ digitalWrite(RX, LOW);
   delay(t1);
   digitalWrite(D7, HIGH);
   delay(t2);
-
+/*
   digitalWrite(D8, LOW);
   delay(t1);
   digitalWrite(D8, HIGH);
   delay(t2);
-  
-
+/*  
   digitalWrite(TX, LOW);
   delay(t1);
   digitalWrite(TX, HIGH);
@@ -116,6 +114,17 @@ digitalWrite(RX, LOW);
   delay(t1);
   digitalWrite(RX, HIGH);
   delay(t2);
+
+  digitalWrite(SD2, LOW);
+  delay(t1);
+  digitalWrite(SD2, HIGH);
+  delay(t1); 
+
+  digitalWrite(SD3, LOW);
+  delay(t1);
+  digitalWrite(SD3, HIGH);
+  delay(t2);
+  
 /*
   digitalWrite(CMD, LOW);
   delay(t1);
@@ -131,15 +140,5 @@ digitalWrite(RX, LOW);
   delay(t1);
   digitalWrite(SD1, HIGH);
   delay(t1);*/
-/*
-  digitalWrite(SD2, LOW);
-  delay(t1);
-  digitalWrite(SD2, HIGH);
-  delay(t1); */
 
-  digitalWrite(SD3, LOW);
-  delay(t1);
-  digitalWrite(SD3, HIGH);
-  delay(t2);
-  
 }

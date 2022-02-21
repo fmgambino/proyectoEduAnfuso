@@ -1,5 +1,5 @@
 int sensor = A0;
-int red = 6;
+int red = 5;
 
 
 int gas, co2lvl;
@@ -27,12 +27,12 @@ void loop() {
     Serial.println(" Bajo ");
     digitalWrite(red, LOW);
   }
-  if ((co2lvl >= 350) && (co2lvl <= 1400))
+  if ((co2lvl >= 350) && (co2lvl <= 500))
   {
     Serial.println(" Bueno ");
     digitalWrite(red, LOW);
   }
-  if ((co2lvl >= 1400) && (co2lvl <= 2000))
+  if ((co2lvl >= 800) && (co2lvl <= 1000))
   {
     digitalWrite(red, HIGH);
     Serial.println("  Alto "); 
