@@ -12,7 +12,7 @@ void setup () {
  }
 // rtc.adjust(DateTime(__DATE__, __TIME__));  // funcion que permite establecer fecha y horario
             // al momento de la compilacion. Comentar esta linea
-}           // y volver a subir para normal operacion
+}           // y volver a subir el codigo para funcionamiento normal 
 
 void loop () {
  DateTime fecha = rtc.now();      // funcion que devuelve fecha y horario en formato

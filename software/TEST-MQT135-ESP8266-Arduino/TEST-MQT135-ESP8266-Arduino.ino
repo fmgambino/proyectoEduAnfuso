@@ -1,5 +1,5 @@
 int sensor = A0;
-int red = 5;
+int red = 2;
 
 
 int gas, co2lvl;
@@ -21,7 +21,7 @@ void loop() {
   
   Serial.print("CO2: "); 
   Serial.print(co2lvl);
-  Serial.print(" ppm");
+  Serial.println(" ppm");
   if ((co2lvl < 350) )
   {
     Serial.println(" Bajo ");

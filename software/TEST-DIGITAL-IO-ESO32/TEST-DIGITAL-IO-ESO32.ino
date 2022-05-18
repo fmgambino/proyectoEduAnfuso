@@ -1,144 +1,143 @@
 int t1=200;
 int t2 = 500;
 
-int D1= 5;
-int D2= 4;
+int d1= 5;
+int d2= 4;
 
 // inputs
-int D0 = 16;  // clk
-int D3 = 0;   // D4
-int D4 = 2;  // cmd
-int CMD = 11;  // s3 
-int SD0 = 7;   // s2
-int SD1 = 8;  // s3 
-int SD2 = 9;  // s3 
-int SD3 = 10;  // s3 
-int RX = 3;  // s3 
+int d0 = 16;  // clk
+int d3 = 0;   // D4
+int d4 = 2;  // cmd
+int cmd = 11;  // s3 
+int sd0 = 7;   // s2
+int sd1 = 8;  // s3 
+int sd2 = 9;  // s3 
+int sd3 = 10;  // s3 
+int rx = 3;  // s3 
 
 // outputs
 
-int D5 = 14;  // clk
-int D6 = 12;   // D4
-int D7 = 13;  // RELE 3
-int D8 = 15;   // WI-FI RST
-int TX = 1;  // s3
+int d5 = 14;  // clk
+int d6 = 12;   // D4
+int d7 = 13;  // RELE 3
+int d8 = 15;   // WI-FI RST
+int tx = 1;  // s3
 
 
 void setup() {
 
-  pinMode(D0, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
-  pinMode(D1, OUTPUT);
-  pinMode(D2, OUTPUT);
-  pinMode(D3, OUTPUT);
-  pinMode(D4, OUTPUT);
-  pinMode(D5, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
-  pinMode(D6, OUTPUT);
-  pinMode(D7, OUTPUT);
-  pinMode(D8, OUTPUT);
-//  pinMode(TX, INPUT);
-//  pinMode(RX, INPUT);
-//pinMode(CMD, OUTPUT);
-//pinMode(SD0, OUTPUT);
-//pinMode(SD1, OUTPUT);
-//  pinMode(SD2, INPUT);
-//  pinMode(SD3, INPUT);
+  pinMode(d0, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
+  pinMode(d1, OUTPUT);
+  pinMode(d2, OUTPUT);
+  pinMode(d3, OUTPUT);
+  pinMode(d4, OUTPUT);
+  pinMode(d5, OUTPUT);     // Initialize the LED_BUILTIN pin as an output
+  pinMode(d6, OUTPUT);
+  pinMode(d7, OUTPUT);
+  pinMode(d8, OUTPUT);
+//  pinMode(tx, INPUT);
+//  pinMode(rx, INPUT);
+//pinMode(cmd, OUTPUT);
+//pinMode(sd0, OUTPUT);
+//pinMode(sd1, OUTPUT);
+//pinMode(sd2, INPUT);
+//pinMode(sd3, INPUT);
   
 }
 
 // the loop function runs over and over again forever
 void loop() {
 
-digitalWrite(D0, LOW);
-digitalWrite(D1, LOW);
-digitalWrite(D2, LOW);
-digitalWrite(D3, LOW);
-digitalWrite(D4, LOW);
-digitalWrite(D5, LOW);
-digitalWrite(D6, LOW);
-digitalWrite(D7, LOW);
-digitalWrite(D8, LOW);
-//digitalWrite(TX, LOW);
-//digitalWrite(RX, LOW);
+digitalWrite(d0, LOW);
+digitalWrite(d1, LOW);
+digitalWrite(d2, LOW);
+digitalWrite(d3, LOW);
+digitalWrite(d4, LOW);
+digitalWrite(d5, LOW);
+digitalWrite(d6, LOW);
+digitalWrite(d7, LOW);
+digitalWrite(d8, LOW);
+//digitalWrite(tx, LOW);
+//digitalWrite(rx, LOW);
 /*
-  digitalWrite(D0, LOW);
+  digitalWrite(d0, LOW);
   delay(t1);
-  digitalWrite(D0, HIGH);
+  digitalWrite(d0, HIGH);
   delay(t2);
 
-  digitalWrite(D1, LOW);
+  digitalWrite(d1, LOW);
   delay(t1);
-  digitalWrite(D1, HIGH);
+  digitalWrite(d1, HIGH);
   delay(t2);
 
-  digitalWrite(D2, LOW);
+  digitalWrite(d2, LOW);
   delay(t1);
-  digitalWrite(D2, HIGH);
+  digitalWrite(d2, HIGH);
   delay(t2);
 */
-  digitalWrite(D3, HIGH);
+  digitalWrite(d3, HIGH);
   delay(t1);
-  digitalWrite(D3, LOW);
+  digitalWrite(d3, LOW);
   delay(t2);
 
-  digitalWrite(D4, HIGH);
+  digitalWrite(d4, HIGH);
   delay(t1);
-  digitalWrite(D4, LOW);
-  delay(t2);
-
-  digitalWrite(D5, LOW);
-  delay(t1);
-  digitalWrite(D5, HIGH);
-  delay(t2);
-
-  digitalWrite(D6, LOW);
-  delay(t1);
-  digitalWrite(D6, HIGH);
-  delay(t2);
-
-  digitalWrite(D7, LOW);
-  delay(t1);
-  digitalWrite(D7, HIGH);
+  digitalWrite(d4, LOW);
   delay(t2);
 /*
-  digitalWrite(D8, LOW);
+  digitalWrite(d5, LOW);
   delay(t1);
-  digitalWrite(D8, HIGH);
+  digitalWrite(d5, HIGH);
+  delay(t2);
+*/
+  digitalWrite(d6, LOW);
+  delay(t1);
+  digitalWrite(d6, HIGH);
+  delay(t2);
+/*
+  digitalWrite(d7, LOW);
+  delay(t1);
+  digitalWrite(d7, HIGH);
+  delay(t2);
+*/
+  digitalWrite(d8, LOW);
+  delay(t1);
+  digitalWrite(d8, HIGH);
   delay(t2);
 /*  
-  digitalWrite(TX, LOW);
+  digitalWrite(tx, LOW);
   delay(t1);
-  digitalWrite(TX, HIGH);
+  digitalWrite(tx, HIGH);
   delay(t2);
 
-  digitalWrite(RX, LOW);
+  digitalWrite(rx, LOW);
   delay(t1);
-  digitalWrite(RX, HIGH);
+  digitalWrite(rx, HIGH);
   delay(t2);
 
-  digitalWrite(SD2, LOW);
+  digitalWrite(sd2, LOW);
   delay(t1);
-  digitalWrite(SD2, HIGH);
+  digitalWrite(sd2, HIGH);
   delay(t1); 
-
-  digitalWrite(SD3, LOW);
+*/
+  digitalWrite(sd3, LOW);
   delay(t1);
-  digitalWrite(SD3, HIGH);
+  digitalWrite(sd3, HIGH);
   delay(t2);
+/*  
+  digitalWrite(cmd, LOW);
+  delay(t1);
+  digitalWrite(cmd, HIGH);
+  delay(t1);
   
-/*
-  digitalWrite(CMD, LOW);
+  digitalWrite(sd0, LOW);
   delay(t1);
-  digitalWrite(CMD, HIGH);
-  delay(t1);
-  
-  digitalWrite(SD0, LOW);
-  delay(t1);
-  digitalWrite(SD0, HIGH);
+  digitalWrite(sd0, HIGH);
   delay(t1);
 
-  digitalWrite(SD1, LOW);
+  digitalWrite(sd1, LOW);
   delay(t1);
-  digitalWrite(SD1, HIGH);
-  delay(t1);*/
-
+  digitalWrite(sd1, HIGH);
+  delay(t1);
+*/
 }

@@ -5,7 +5,7 @@ ADC_MODE(ADC_VCC);
 #include <DallasTemperature.h>
 #include <ESP8266WiFi.h>
  
-#define DS18B20 10 //DS18B20 esta conectado al pin GPIO D5 del NodeMCU
+#define DS18B20 15 //DS18B20 esta conectado al pin GPIO D5 del NodeMCU
 
 String apiKey = "CHK2PZSH7706Y5PS";     //  Poner la apikey que te da ThingSpeak
 const char* ssid =  "JUAREZ";  // Poner el nombre de tu red wi-fi
@@ -15,13 +15,13 @@ const char* server = "api.thingspeak.com";// El servidor de Thingspeak, esto NO 
 // Defino variables numericas
 float temp;// Variable para la temperatura leida
 int veces;// Variable para los intentos de subir el dato de temperatura a la nube; para que en caso de apagón, no se gaste toda la batería intentando e intentando subir el dato.
-int D0; 
+int d0; 
 OneWire ourWire(DS18B20);// Se declara un objeto para la libreria
 DallasTemperature sensor(&ourWire);// Se declara un objeto para la otra libreria
 WiFiClient client;// Se define el cliente wi-fi
  
 void setup() {
-   pinMode(D0, WAKEUP_PULLUP);//
+   pinMode(d0, WAKEUP_PULLUP);//
    delay(1000);// Esperamos 1 segundo
    sensor.begin();// Inicializa el sensor de T
    WiFi.begin(ssid, pass);// Inicializa la comunicación por wi-fi

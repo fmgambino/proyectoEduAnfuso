@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "IKD0103101"
+   (description "1 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator")
+   (family "SWI")
+   (package "IKD0103101")
+   (attribute "Datasheet Link" "https://eu.mouser.com/datasheet/2/26/appm_s_a0001640570_1-2262042.pdf")
+   (attribute "Geometry.Height" "3.7mm")
+   (attribute "Manufacturer_Name" "Apem")
+   (attribute "Manufacturer_Part_Number" "IKD0103101")
+   (attribute "Mouser Part Number" "642-IKD0103101")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Apem/IKD0103101/?qs=4WAgjVhLeNDRnoT6kDTfJA%3D%3D")
+   (attribute "Arrow Part Number" "")
+   (attribute "Arrow Price/Stock" "")
+   (gate
+    (symbol "IKD0103101")
+    (pin "1" 1 PS)
+    (pin "2" 2 PS)
+   )
+  )
+  (symbol "IKD0103101"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 600 100) (pt 600 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "IKD0103101"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -1.74 3.1)
+      (pt 1.74 3.1)
+      (pt 1.74 -3.1)
+      (pt -1.74 -3.1)
+      (pt -1.74 3.1))))
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -2.74 6.2)
+      (pt 2.74 6.2)
+      (pt 2.74 -6.2)
+      (pt -2.74 -6.2)
+      (pt -2.74 6.2))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt -1 3.1)
+      (pt -1.74 3.1)
+      (pt -1.74 -3.1)
+      (pt -1 -3.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed false)
+      (pt 1 3.1)
+      (pt 1.74 3.1)
+      (pt 1.74 -3.1)
+      (pt 1 -3.1))))
+   (layer TSLK
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -0.2 -5.6)
+      (arc (pt -0.200 -5.600) (pt -0.200 -5.650) (pt -0.100 -5.550) (start 180.0) (sweep 180.0))
+      (pt -0.1 -5.6)
+      (arc (pt -0.100 -5.600) (pt -0.200 -5.650) (pt -0.100 -5.550) (start 180.0) (sweep .0))
+      (pt -0.2 -5.6))))
+   (leg 1 (pt 0.000 -4.450) (padstack 0))
+   (leg 2 (pt 0.000 4.450) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 1.100 1.500 0 0 90.000))
+   )
+  )
+ )
+)
