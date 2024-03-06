@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 EESchema-DOCLIB  Version 2.0
 #
 $CMP IKD0103101
@@ -7,3 +8,14 @@ F https://eu.mouser.com/datasheet/2/26/appm_s_a0001640570_1-2262042.pdf
 $ENDCMP
 #
 #End Doc Library
+=======
+EESchema-DOCLIB  Version 2.0
+#
+$CMP IKD0103101
+D 1 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator
+K
+F https://eu.mouser.com/datasheet/2/26/appm_s_a0001640570_1-2262042.pdf
+$ENDCMP
+#
+#End Doc Library
+>>>>>>> ec84c6f (Update Firmware MQ135.)

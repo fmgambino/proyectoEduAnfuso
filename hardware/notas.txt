@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ETAPA DE ENTRADA Definiciones     PININ   ESP12
 
 - Sensor 01 MQ135 (Gas)     +5V => A0 => A0  - ENTRADA ANALOGICA
@@ -37,4 +38,45 @@ Q3 - Actuador 03 Rele (Temp) => D8 => IO15 / ACCIONA RELAY3
 I2C PORT COM PARA RTC Y OLED
 
 - SDA   (RTC)               => D2  => IO4 / CONTROLA RTC
+=======
+ETAPA DE ENTRADA Definiciones     PININ   ESP12
+
+- Sensor 01 MQ135 (Gas)     +5V => A0 => A0  - ENTRADA ANALOGICA
+
+- Sensor 02 DHT22 (Hum)     +5V => D5 => IO14 - NO SE PUEDE USAR - ENTRADA DIGITAL CON RESISTENCIA PULL UP 10K 
+
+- Sensor 03 DS18BS20 (Temp) +5V => D5 => IO14 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
+
+- Sensor 04  -----------    +5V => SD2 => IO9 - NO SE PUEDE USAR 
+
+- Sensor 05  -----------    +5V => SD3 => IO10 - NO SE PUEDE USAR EN EL MODULO GRANDE
+
+
+DEFINICION DE BOTONES
+
+ - BTN1 - DERIVA A PULL UP   => RST   
+ - BTN2 - DERIVA A MASA      => EN     
+ - BTN3 - WI-FI RST          => D7    => IO13 
+ - BTN4 - DEEP SLEEP         => D0    => IO16
+
+ETAPA DE SALIDA Definiciones PININ ESP12
+
+Q1 - Actuador 01 Rele (Gas)  => SD3 => IO10  / ACCIONA RELAY1
+
+Q2 - Actuador 02 Rele (Hum)  => D6 => IO12  / ACCIONA RELAY2 
+
+Q3 - Actuador 03 Rele (Temp) => D8 => IO15 / ACCIONA RELAY3
+
+//Q4 - Actuador 04 Rele      => XX => IOXX  / ACCIONA RELAY4 -> SE ELIMINA POR FALTA DE PINES
+
+//Q5 - Actuador 05 MOSFET      => XX => IOXX  / ACCIONA SALIDA MOSFET -> SE ELIMINA POR FALTA DE PINES
+
+- WI-FI  LED                 => D4  => IO0 / ENCIENDE LED WIFI
+
+- MQTT LED                   => D3  => IO2  / ENCIENDE LED MQTT
+
+I2C PORT COM PARA RTC Y OLED
+
+- SDA   (RTC)               => D2  => IO4 / CONTROLA RTC
+>>>>>>> ec84c6f (Update Firmware MQ135.)
 - SCL   (RTC)               => D1  => IO5 / CONTROLA RTC

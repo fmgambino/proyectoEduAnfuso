@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 NECESITO LINK O IMAGEN DEL PINOUT DE LOS DOS MODULOS A USAR. SEGUN ESO SE VA A LIMITAR LA CANTIDAD DE ENTRADAS Y SALIDAS.
 
 ETAPA DE ENTRADA Definiciones PININ ESP12
@@ -44,4 +45,52 @@ ETAPA DE SALIDA Definiciones PININ ESP12
 
 - Actuador 07 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
 
+=======
+NECESITO LINK O IMAGEN DEL PINOUT DE LOS DOS MODULOS A USAR. SEGUN ESO SE VA A LIMITAR LA CANTIDAD DE ENTRADAS Y SALIDAS.
+
+ETAPA DE ENTRADA Definiciones PININ ESP12
+
+- Sensor 01 MQ135 (Gas) +5V => A0 / ENTRADA ANALOGICA
+
+- Sensor 02 DHT22 (Hum) +5V => D5 => IO16 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
+
+- Sensor 03 DS18BS20 (Temp) +5V => CLK => IO6 - ENTRADA DIGITAL CON RESISTENCIA PULL UP 4.7K
+
+- Sensor 04 MH  / QUE SENSOR ?  / ENTRADA DIGITAL O ANALOGICA ? 
+
+- Sensor 05  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
+
+- Sensor 06  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
+
+- Sensor 07  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
+
+- Sensor 08  Se solicitar defini el mismo / ENTRADA DIGITAL O ANALOGICA ? 
+
+boton crga programa / LO COLOCO COMO ENTRADA DIGITAL IO33
+caudalimetro 	/ ACTUADOR O SENSOR ?
+peso / ACTUADOR O SENSOR ?
+volumen / ACTUADOR O SENSOR ?
+boton wi fi /  LO COLOCO COMO ENTRADA DIGITAL IO32
+reset /  RESET TOTAL ? / IO13
+bornera no pegada al orilla pcb / 
+wi fi led / SALIDA POR IO35
+mqtt led  / SALIDA POR IO34
+
+ETAPA DE SALIDA Definiciones PININ ESP12
+
+- Actuador 01 Rele (Gas) +5V => A0 => IO4  / ACTIVA EN ALTO Y ACCIONA RELAY1
+
+- Actuador 02 Rele (Hum) +5V => A1 => IO16  / ACTIVA EN ALTO Y ACCIONA RELAY2
+
+- Actuador 03 Rele (Temp) +5V => A2 => IO17 / ACTIVA EN ALTO Y ACCIONA RELAY3
+
+- Actuador 04 Rele => IO5 / ACTIVA EN ALTO Y ACCIONA RELAY4
+
+- Actuador 05 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
+
+- Actuador 06 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
+
+- Actuador 07 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR
+
+>>>>>>> ec84c6f (Update Firmware MQ135.)
 - Actuador 08 MOSFET Se solicitar defini el mismo / AUN POR DEFINIR ESQUEMA A USAR

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 FILE_TYPE = MULTI_PHYS_TABLE;
 
 PART 'IKD0103101'
@@ -9,3 +10,16 @@ CLASS = DISCRETE
 END_PART
 
 END.
+=======
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'IKD0103101'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Apem", "IKD0103101" (!) = "", "IKD0103101", "Other", "642-IKD0103101", "https://www.mouser.co.uk/ProductDetail/Apem/IKD0103101/?qs=4WAgjVhLeNDRnoT6kDTfJA%3D%3D", "", "", "1 Way Surface Mount DIP Switch SPST, Raised Actuator Slide Actuator", "https://eu.mouser.com/datasheet/2/26/appm_s_a0001640570_1-2262042.pdf", "3.7 mm"
+END_PART
+
+END.
+>>>>>>> ec84c6f (Update Firmware MQ135.)

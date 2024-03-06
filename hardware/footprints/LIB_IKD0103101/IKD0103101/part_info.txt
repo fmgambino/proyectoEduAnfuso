@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Manufacturer=Apem
 PartNumber=IKD0103101
 PartCategory=Switch
@@ -7,3 +8,14 @@ Version=1.2
 Released=2021-07-15 08:48:44
 Downloaded=2022-03-15 20:42:04
 3D=N
+=======
+Manufacturer=Apem
+PartNumber=IKD0103101
+PartCategory=Switch
+PackageCategory=Other
+PinCount=2
+Version=1.2
+Released=2021-07-15 08:48:44
+Downloaded=2022-03-15 20:42:04
+3D=N
+>>>>>>> ec84c6f (Update Firmware MQ135.)

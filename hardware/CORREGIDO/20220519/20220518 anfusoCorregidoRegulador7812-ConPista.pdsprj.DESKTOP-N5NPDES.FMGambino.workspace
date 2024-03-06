@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?xml version='1.0' encoding='UTF-8' standalone='yes'?>
 <WORKSPACE>
  <FRAME activewindow="-1">
@@ -20,3 +21,27 @@
   <PWI/>
  </MODULE>
 </WORKSPACE>
+=======
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<WORKSPACE>
+ <FRAME activewindow="-1">
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffffca00000017000000e706000006040000</PLACEMENT>
+ </FRAME>
+ <FRAME activewindow="3">
+  <PLACEMENT>2c00000002000000030000000083ffff0083ffffffffffffffffffffd109000036000000ee0f000026040000</PLACEMENT>
+  <WINDOW type="default" module="ARES"/>
+  <WINDOW type="VIEW3D" module="VIEW3D">
+   <camera>
+    <position x="6010000" y="4009999" z="10622539"/>
+    <focus x="6010000" y="4009999" z="0"/>
+    <up x="0" y="1000000" z="0"/>
+   </camera>
+  </WINDOW>
+  <WINDOW type="default" module="BOM"/>
+  <WINDOW type="default" module="ISIS"/>
+ </FRAME>
+ <MODULE name="VSMDEBUG">
+  <PWI/>
+ </MODULE>
+</WORKSPACE>
+>>>>>>> ec84c6f (Update Firmware MQ135.)

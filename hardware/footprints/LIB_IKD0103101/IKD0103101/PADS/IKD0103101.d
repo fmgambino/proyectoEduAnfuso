@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 *PADS-LIBRARY-PCB-DECALS-V9*
 
+=======
+*PADS-LIBRARY-PCB-DECALS-V9*
+
+>>>>>>> ec84c6f (Update Firmware MQ135.)
 IKD0103101 M 0 0 0 2 5 0 2 1 0
 TIMESTAMP 2021.06.14.15.43.31
 0.000 0.000 0 0 1.27 0.127 1 0 34 "Regular "
@@ -40,5 +45,10 @@ PAD 0 3 N 0
 -2 1.100 RF 0.000 90.000 1.500 0.000
 -1 0 R
 0 0 R
+<<<<<<< HEAD
 
 *END*
+=======
+
+*END*
+>>>>>>> ec84c6f (Update Firmware MQ135.)

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 (unit MM)
 
 (package "IKD0103101"
@@ -11,3 +12,18 @@
         (spec "System")
     )
 )
+=======
+(unit MM)
+
+(package "IKD0103101"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2021-07-15-08:48:44)
+    (mountForm default
+        (footprintRef "IKD0103101")
+        (spec "System")
+    )
+)
+>>>>>>> ec84c6f (Update Firmware MQ135.)
